@@ -305,3 +305,187 @@ def get_timeline_analysis(
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/advanced-mechanical/analysis/{region}/{subregion}")
+def get_advanced_mechanical_analysis(
+    region: str,
+    subregion: str,
+    base_offset: int = Query(46664, description="Base offset (skew factor)"),
+    window_width: float = Query(0.10, description="Reset window width")
+):
+    """Get Advanced Mechanical Analysis using Tetrahedron RGB-CMYK framework"""
+    try:
+        analysis_data = cycle_engine.generate_tetrahedron_analysis(
+            region, subregion, base_offset, window_width
+        )
+        
+        return {
+            "region": region,
+            "subregion": subregion,
+            "base_offset": base_offset,
+            "window_width": window_width,
+            "cycle_periods": [20, 50, 160, 250, 500],
+            "phase_calculations": analysis_data.get("phase_calculations", []),
+            "regional_calibration": analysis_data.get("regional_calibration", {}),
+            "predictive_accuracy": analysis_data.get("predictive_accuracy", {}),
+            "religious_influence_tracking": analysis_data.get("religious_influence_tracking", {}),
+            "mathematical_framework": "Phase = ((event_date + base_offset) mod period) / period",
+            "statistical_significance": "P < 1 × 10^-89"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/events")
+async def get_events(
+    region: str = Query(None, description="Region filter"),
+    civilisation: str = Query(None, description="Civilisation filter"),
+    date_start: float = Query(None, description="Start date filter"),
+    date_end: float = Query(None, description="End date filter"),
+    cycle_bands: str = Query(None, description="Comma-separated cycle periods"),
+    limit: int = Query(1000, description="Maximum results"),
+    format: str = Query("json", description="Output format (json/csv)")
+):
+    """Fetch events filtered by region, civilisation, period, cycles, effect type, etc."""
+    try:
+        cycle_band_list = None
+        if cycle_bands:
+            cycle_band_list = [int(x.strip()) for x in cycle_bands.split(',')]
+        
+        events = cycle_engine.get_comprehensive_events(
+            region=region,
+            civilisation=civilisation,
+            date_start=date_start,
+            date_end=date_end,
+            cycle_bands=cycle_band_list,
+            limit=limit
+        )
+        
+        if format == "csv":
+            return {"format": "csv", "data": events}
+        
+        return {"events": events, "count": len(events)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/cycles")
+async def get_cycles(
+    region: str = Query(None, description="Region filter"),
+    period_filter: str = Query(None, description="Comma-separated periods"),
+    format: str = Query("json", description="Output format (json/csv)")
+):
+    """List/display cycles, period, parent/child, embed relationships"""
+    try:
+        period_list = None
+        if period_filter:
+            period_list = [int(x.strip()) for x in period_filter.split(',')]
+        
+        cycles = cycle_engine.get_comprehensive_cycles(
+            region=region,
+            period_filter=period_list
+        )
+        
+        if format == "csv":
+            return {"format": "csv", "data": cycles}
+        
+        return {"cycles": cycles, "count": len(cycles)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/convergences")
+async def get_convergences(
+    region: str = Query(None, description="Region filter"),
+    year_start: int = Query(None, description="Start year filter"),
+    year_end: int = Query(None, description="End year filter"),
+    format: str = Query("json", description="Output format (json/csv)")
+):
+    """Fetch cycle convergence/overlap points"""
+    try:
+        convergences = cycle_engine.get_convergence_points(
+            region=region,
+            year_start=year_start,
+            year_end=year_end
+        )
+        
+        if format == "csv":
+            return {"format": "csv", "data": convergences}
+        
+        return {"convergences": convergences, "count": len(convergences)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/predictions")
+async def get_predictions(
+    region: str = Query(None, description="Region filter"),
+    date_range: str = Query(None, description="Date range (YYYY-YYYY)"),
+    cycle_bands: str = Query(None, description="Comma-separated cycle periods")
+):
+    """Produce and log forecasts (events, regime shifts, etc.) given filters"""
+    try:
+        predictions = cycle_engine.generate_cycle_predictions(
+            region=region,
+            date_range=date_range,
+            cycle_bands=cycle_bands
+        )
+        
+        return {"predictions": predictions, "count": len(predictions)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/sources")
+async def get_sources(
+    applies_to: str = Query(None, description="Filter by what the source applies to")
+):
+    """Return references/citations for any data point"""
+    try:
+        sources = cycle_engine.get_sources_references(applies_to=applies_to)
+        return {"sources": sources, "count": len(sources)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/regions/comprehensive")
+async def get_regions_comprehensive():
+    """Direct lookup endpoint for regions with full hierarchy"""
+    try:
+        regions = cycle_engine.get_all_regions_comprehensive()
+        return {"regions": regions, "count": len(regions)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/civilisations")
+async def get_civilisations(
+    region: str = Query(None, description="Region filter")
+):
+    """Direct lookup endpoint for civilisations"""
+    try:
+        civilisations = cycle_engine.get_all_civilisations_comprehensive(region=region)
+        return {"civilisations": civilisations, "count": len(civilisations)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/effects")
+async def get_effects():
+    """Direct lookup endpoint for effects/actions"""
+    try:
+        effects = cycle_engine.get_all_effects_comprehensive()
+        return {"effects": effects, "count": len(effects)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/astronomical-cycles")
+async def get_astronomical_cycles():
+    """Get astronomical cycle definitions"""
+    try:
+        astro_cycles = cycle_engine.get_astronomical_cycles_comprehensive()
+        return {"astronomical_cycles": astro_cycles, "count": len(astro_cycles)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/system-parameters")
+async def get_system_parameters():
+    """Get system parameters and configuration"""
+    try:
+        params = cycle_engine.get_system_parameters_comprehensive()
+        return {"parameters": params, "count": len(params)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
