@@ -54,6 +54,10 @@ class CycleDetectionEngine:
         self.global_datasets = {}
         self.vatican_influence_data = None
         
+        self.identified_cycles_cache = {}
+        self.unidentified_cycles_cache = {}
+        self.dataset_probabilities = {}
+        
     def load_global_datasets(self):
         """Load all global civilization datasets including subregions"""
         logger.info("Loading global datasets...")
@@ -89,28 +93,153 @@ class CycleDetectionEngine:
         logger.info(f"Loaded datasets for {len(self.global_datasets)} regions with {total_subregions} subregions")
         
     def _load_region_data(self, region_path: Path) -> pd.DataFrame:
-        """Load comprehensive analysis CSV file for a specific subregion"""
+        """Load comprehensive analysis CSV file with robust error handling"""
+        
+        required_columns = [
+            'year', 'event', 'region', 'subregion', 'event_type',
+            'cycle_period', 'phase', 'reset_window'
+        ]
+        
         for csv_file in region_path.glob("*comprehensive_analysis*.csv"):
             try:
                 df = pd.read_csv(csv_file)
+                
+                if df.empty:
+                    logger.warning(f"Empty comprehensive analysis file: {csv_file}")
+                    continue
+                
+                df_columns_lower = [col.lower() for col in df.columns]
+                missing_columns = []
+                for req_col in ['year', 'event']:  # Essential columns only
+                    if not any(req_col in col_lower for col_lower in df_columns_lower):
+                        missing_columns.append(req_col)
+                
+                if missing_columns:
+                    logger.warning(f"Missing essential columns in {csv_file}: {missing_columns}")
+                    continue
+                
+                if not self._validate_data_types(df):
+                    logger.warning(f"Invalid data types in {csv_file}, attempting to fix...")
+                    df = self._fix_data_types(df)
+                
                 logger.info(f"Loaded comprehensive analysis from {csv_file}: {len(df)} events")
                 return df
+                
+            except pd.errors.EmptyDataError:
+                logger.error(f"Empty data file: {csv_file}")
+            except pd.errors.ParserError as e:
+                logger.error(f"Parser error in {csv_file}: {str(e)}")
+            except FileNotFoundError:
+                logger.error(f"File not found: {csv_file}")
+            except PermissionError:
+                logger.error(f"Permission denied: {csv_file}")
             except Exception as e:
-                logger.warning(f"Failed to load {csv_file}: {e}")
+                logger.error(f"Unexpected error loading {csv_file}: {str(e)}")
         
         for csv_file in region_path.glob("*.csv"):
             if csv_file.name.endswith('_summary_report.md'):
                 continue
             try:
                 df = pd.read_csv(csv_file)
-                if len(df) > 10:
+                if len(df) > 10 and self._has_basic_columns(df):
                     logger.info(f"Loaded fallback data from {csv_file}: {len(df)} events")
-                    return df
+                    return self._standardize_fallback_data(df)
             except Exception as e:
-                logger.warning(f"Failed to load {csv_file}: {e}")
+                logger.warning(f"Failed to load fallback {csv_file}: {e}")
         
-        logger.warning(f"No suitable data files found in {region_path}")
+        logger.error(f"No suitable data files found in {region_path}")
         return pd.DataFrame()
+    
+    def _validate_data_types(self, df: pd.DataFrame) -> bool:
+        """Validate data types in DataFrame"""
+        try:
+            year_cols = [col for col in df.columns if 'year' in col.lower()]
+            if year_cols:
+                year_col = year_cols[0]
+                numeric_years = pd.to_numeric(df[year_col], errors='coerce')
+                if numeric_years.isna().all():
+                    return False
+            
+            phase_cols = [col for col in df.columns if 'phase' in col.lower()]
+            if phase_cols:
+                phase_col = phase_cols[0]
+                phase_values = pd.to_numeric(df[phase_col], errors='coerce')
+                if not phase_values.dropna().between(0, 1).all():
+                    logger.warning(f"Phase values outside 0-1 range in column {phase_col}")
+            
+            return True
+        except Exception as e:
+            logger.error(f"Error validating data types: {str(e)}")
+            return False
+    
+    def _fix_data_types(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Fix common data type issues in DataFrame"""
+        try:
+            df_fixed = df.copy()
+            
+            year_cols = [col for col in df.columns if 'year' in col.lower()]
+            for year_col in year_cols:
+                df_fixed[year_col] = pd.to_numeric(df_fixed[year_col], errors='coerce')
+            
+            phase_cols = [col for col in df.columns if 'phase' in col.lower()]
+            for phase_col in phase_cols:
+                df_fixed[phase_col] = pd.to_numeric(df_fixed[phase_col], errors='coerce')
+                df_fixed[phase_col] = df_fixed[phase_col].clip(0, 1)
+            
+            if year_cols:
+                df_fixed = df_fixed.dropna(subset=year_cols)
+            
+            return df_fixed
+        except Exception as e:
+            logger.error(f"Error fixing data types: {str(e)}")
+            return df
+    
+    def _has_basic_columns(self, df: pd.DataFrame) -> bool:
+        """Check if DataFrame has basic required columns"""
+        df_columns_lower = [col.lower() for col in df.columns]
+        
+        has_year = any('year' in col for col in df_columns_lower)
+        
+        has_event = any('event' in col for col in df_columns_lower)
+        
+        return has_year and has_event
+    
+    def _standardize_fallback_data(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Standardize fallback data to required format"""
+        try:
+            df_std = df.copy()
+            
+            column_mapping = {}
+            for col in df.columns:
+                col_lower = col.lower()
+                if 'year' in col_lower:
+                    column_mapping[col] = 'Year'
+                elif 'event' in col_lower:
+                    column_mapping[col] = 'Event'
+                elif 'civilization' in col_lower:
+                    column_mapping[col] = 'Civilization'
+                elif 'region' in col_lower:
+                    column_mapping[col] = 'Region'
+            
+            df_std = df_std.rename(columns=column_mapping)
+            
+            if 'Year' in df_std.columns:
+                df_std['Year'] = pd.to_numeric(df_std['Year'], errors='coerce')
+                df_std = df_std.dropna(subset=['Year'])
+            
+            if 'Event' not in df_std.columns:
+                df_std['Event'] = 'Unknown Event'
+            if 'Civilization' not in df_std.columns:
+                df_std['Civilization'] = 'Unknown'
+            if 'Region' not in df_std.columns:
+                df_std['Region'] = 'Unknown'
+            
+            logger.info(f"Standardized fallback data: {len(df_std)} events")
+            return df_std
+            
+        except Exception as e:
+            logger.error(f"Error standardizing fallback data: {str(e)}")
+            return df
     
     def detect_cycles_in_dataset(self, df: pd.DataFrame, region: str) -> List[Dict[str, Any]]:
         """Detect cycles in a specific dataset"""
@@ -1089,6 +1218,67 @@ class CycleDetectionEngine:
                 religious_data["cyclical_correlation"]["missionary_pattern_match"] = round(len(missionary_events) / len(religious_events), 4) if religious_events else 0.0
         
         return religious_data
+    
+    def _calculate_dataset_probability(self, dataset_name):
+        """Calculate probability for specific dataset"""
+        try:
+            if dataset_name not in self.datasets or not self.datasets[dataset_name]:
+                self.dataset_probabilities[dataset_name] = 0.0
+                return
+            
+            dataset = self.datasets[dataset_name]
+            total_events = len(dataset)
+            
+            if total_events < 10:  # Minimum events for statistical significance
+                self.dataset_probabilities[dataset_name] = 0.0
+                return
+            
+            cycle_alignments = []
+            for period in [20, 50, 160, 250, 500]:
+                aligned_events = 0
+                for event in dataset:
+                    if isinstance(event, dict) and 'year' in event:
+                        year = event['year']
+                        if isinstance(year, (int, float)) and year > 0:
+                            phase = ((year + 46664) % period) / period
+                            if phase <= 0.1 or phase >= 0.9:
+                                aligned_events += 1
+                
+                if total_events > 0:
+                    alignment_rate = aligned_events / total_events
+                    cycle_alignments.append(alignment_rate)
+            
+            if cycle_alignments:
+                avg_alignment = sum(cycle_alignments) / len(cycle_alignments)
+                probability_random = (1 - avg_alignment) ** total_events
+                self.dataset_probabilities[dataset_name] = probability_random
+            else:
+                self.dataset_probabilities[dataset_name] = 1.0
+                
+            self.logger.info(f"Dataset {dataset_name} probability: {self.dataset_probabilities[dataset_name]:.2e}")
+            
+        except Exception as e:
+            self.logger.error(f"Error calculating probability for {dataset_name}: {str(e)}")
+            self.dataset_probabilities[dataset_name] = 1.0
+    
+    def _cache_identified_cycles(self, region, cycles):
+        """Cache identified cycles for performance"""
+        import time
+        cache_key = f"{region}_{hash(str(cycles))}"
+        self.identified_cycles_cache[cache_key] = {
+            'cycles': cycles,
+            'timestamp': time.time(),
+            'region': region
+        }
+    
+    def _get_cached_cycles(self, region):
+        """Retrieve cached cycles if available"""
+        import time
+        for cache_key, cache_data in self.identified_cycles_cache.items():
+            if cache_data['region'] == region:
+                if time.time() - cache_data['timestamp'] < 3600:
+                    return cache_data['cycles']
+        return None
     
     def init_comprehensive_database(self):
         """Initialize comprehensive database with all 15 tables from specification"""

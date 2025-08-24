@@ -5,7 +5,6 @@ import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ScatterChart, Scatter } from 'recharts'
 import { Settings, Calculator, TrendingUp, Zap, Globe, Database } from 'lucide-react'
 
 interface TetrahedronAnalysisData {
@@ -330,35 +329,50 @@ export function AdvancedMechanicalAnalysisPage() {
             <CardHeader>
               <CardTitle className="text-white">Tetrahedron Phase Calculations</CardTitle>
               <CardDescription className="text-gray-300">
-                RGB-CMYK harmonic ratio visualization with reset window detection
+                RGB-CMYK harmonic ratio analysis with reset window detection
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={400}>
-                <ScatterChart data={getPhaseVisualizationData()}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-                  <XAxis dataKey="year" stroke="#9CA3AF" />
-                  <YAxis dataKey="phase" stroke="#9CA3AF" />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: '#1F2937', 
-                      border: '1px solid #6B7280',
-                      borderRadius: '8px'
-                    }}
-                  />
-                  <Legend />
-                  <Scatter 
-                    name="Phase Values" 
-                    dataKey="phase" 
-                    fill="#8B5CF6"
-                  />
-                  <Scatter 
-                    name="Reset Windows" 
-                    dataKey="reset_window" 
-                    fill="#EF4444"
-                  />
-                </ScatterChart>
-              </ResponsiveContainer>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse border border-gray-600">
+                  <thead>
+                    <tr className="bg-gray-800">
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Year</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Cycle Period</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Phase Value</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">RGB Mapping</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">CMYK Mapping</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Reset Window</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {getPhaseVisualizationData().slice(0, 20).map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? "bg-gray-900" : "bg-gray-800"}>
+                        <td className="border border-gray-600 px-4 py-2 text-white font-semibold">{row.year}</td>
+                        <td className="border border-gray-600 px-4 py-2 text-gray-300">{row.cycle_period} years</td>
+                        <td className="border border-gray-600 px-4 py-2 text-gray-300">{row.phase.toFixed(4)}</td>
+                        <td className="border border-gray-600 px-4 py-2">
+                          <div className="flex items-center space-x-2">
+                            <div 
+                              className="w-4 h-4 rounded border border-gray-500" 
+                              style={{backgroundColor: `hsl(${row.rgb_intensity * 3.6}, 70%, 50%)`}}
+                            ></div>
+                            <span className="text-gray-300 text-sm">Intensity: {row.rgb_intensity.toFixed(1)}</span>
+                          </div>
+                        </td>
+                        <td className="border border-gray-600 px-4 py-2 text-gray-300 text-sm">
+                          CMYK: {row.cmyk_intensity.toFixed(3)}
+                        </td>
+                        <td className="border border-gray-600 px-4 py-2">
+                          <Badge variant={row.reset_window ? "destructive" : "secondary"}>
+                            {row.reset_window ? "Active" : "Inactive"}
+                          </Badge>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </CardContent>
           </Card>
 
@@ -371,35 +385,54 @@ export function AdvancedMechanicalAnalysisPage() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={300}>
-                <LineChart data={getRegionalCalibrationData()}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-                  <XAxis dataKey="region" stroke="#9CA3AF" />
-                  <YAxis stroke="#9CA3AF" />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: '#1F2937', 
-                      border: '1px solid #6B7280',
-                      borderRadius: '8px'
-                    }}
-                  />
-                  <Legend />
-                  <Line 
-                    type="monotone" 
-                    dataKey="accuracy" 
-                    stroke="#3B82F6" 
-                    strokeWidth={2}
-                    name="Accuracy %"
-                  />
-                  <Line 
-                    type="monotone" 
-                    dataKey="correlation" 
-                    stroke="#10B981" 
-                    strokeWidth={2}
-                    name="Correlation %"
-                  />
-                </LineChart>
-              </ResponsiveContainer>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse border border-gray-600">
+                  <thead>
+                    <tr className="bg-gray-800">
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Region</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Accuracy (%)</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Correlation (%)</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Offset Adjustment</th>
+                      <th className="border border-gray-600 px-4 py-2 text-left text-white">Confidence Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {getRegionalCalibrationData().map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? "bg-gray-900" : "bg-gray-800"}>
+                        <td className="border border-gray-600 px-4 py-2 text-white font-semibold">{row.region}</td>
+                        <td className="border border-gray-600 px-4 py-2">
+                          <div className="flex items-center space-x-2">
+                            <div className="w-full bg-gray-700 rounded-full h-2 max-w-20">
+                              <div 
+                                className="bg-blue-500 h-2 rounded-full" 
+                                style={{width: `${row.accuracy}%`}}
+                              ></div>
+                            </div>
+                            <span className="text-white text-sm">{row.accuracy}%</span>
+                          </div>
+                        </td>
+                        <td className="border border-gray-600 px-4 py-2">
+                          <div className="flex items-center space-x-2">
+                            <div className="w-full bg-gray-700 rounded-full h-2 max-w-20">
+                              <div 
+                                className="bg-green-500 h-2 rounded-full" 
+                                style={{width: `${row.correlation}%`}}
+                              ></div>
+                            </div>
+                            <span className="text-white text-sm">{row.correlation}%</span>
+                          </div>
+                        </td>
+                        <td className="border border-gray-600 px-4 py-2 text-gray-300">{row.offset || 'N/A'}</td>
+                        <td className="border border-gray-600 px-4 py-2">
+                          <Badge variant={row.accuracy > 90 ? "default" : row.accuracy > 80 ? "secondary" : "destructive"}>
+                            {row.accuracy > 90 ? "High" : row.accuracy > 80 ? "Medium" : "Low"}
+                          </Badge>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </CardContent>
           </Card>
 
@@ -414,35 +447,54 @@ export function AdvancedMechanicalAnalysisPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ResponsiveContainer width="100%" height={300}>
-                    <LineChart data={getReligiousInfluenceData()}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-                      <XAxis dataKey="year" stroke="#9CA3AF" />
-                      <YAxis stroke="#9CA3AF" />
-                      <Tooltip 
-                        contentStyle={{ 
-                          backgroundColor: '#1F2937', 
-                          border: '1px solid #6B7280',
-                          borderRadius: '8px'
-                        }}
-                      />
-                      <Legend />
-                      <Line 
-                        type="monotone" 
-                        dataKey="impact" 
-                        stroke="#F59E0B" 
-                        strokeWidth={2}
-                        name="Impact Magnitude %"
-                      />
-                      <Line 
-                        type="monotone" 
-                        dataKey="correlation" 
-                        stroke="#EC4899" 
-                        strokeWidth={2}
-                        name="Cycle Correlation %"
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse border border-gray-600">
+                      <thead>
+                        <tr className="bg-gray-800">
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Year</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Region</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Impact Magnitude (%)</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Cycle Correlation (%)</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Significance</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {getReligiousInfluenceData().map((row, index) => (
+                          <tr key={index} className={index % 2 === 0 ? "bg-gray-900" : "bg-gray-800"}>
+                            <td className="border border-gray-600 px-4 py-2 text-white font-semibold">{row.year}</td>
+                            <td className="border border-gray-600 px-4 py-2 text-gray-300">{row.region}</td>
+                            <td className="border border-gray-600 px-4 py-2">
+                              <div className="flex items-center space-x-2">
+                                <div className="w-full bg-gray-700 rounded-full h-2 max-w-20">
+                                  <div 
+                                    className="bg-yellow-500 h-2 rounded-full" 
+                                    style={{width: `${row.impact}%`}}
+                                  ></div>
+                                </div>
+                                <span className="text-white text-sm">{row.impact}%</span>
+                              </div>
+                            </td>
+                            <td className="border border-gray-600 px-4 py-2">
+                              <div className="flex items-center space-x-2">
+                                <div className="w-full bg-gray-700 rounded-full h-2 max-w-20">
+                                  <div 
+                                    className="bg-pink-500 h-2 rounded-full" 
+                                    style={{width: `${row.correlation}%`}}
+                                  ></div>
+                                </div>
+                                <span className="text-white text-sm">{row.correlation}%</span>
+                              </div>
+                            </td>
+                            <td className="border border-gray-600 px-4 py-2">
+                              <Badge variant={row.impact > 80 ? "destructive" : row.impact > 60 ? "default" : "secondary"}>
+                                {row.impact > 80 ? "High" : row.impact > 60 ? "Medium" : "Low"}
+                              </Badge>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </CardContent>
               </Card>
 
@@ -454,28 +506,44 @@ export function AdvancedMechanicalAnalysisPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-4 max-h-80 overflow-y-auto">
-                    {Object.entries(analysisData.religious_influence_tracking.scripture_versions).slice(0, 10).map(([key, version], index) => (
-                      <div key={index} className="bg-black/20 p-4 rounded-lg border border-green-500/20">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <div className="text-lg font-bold text-green-400">
-                              {key.replace('_', ' ').toUpperCase()}
-                            </div>
-                            <div className="text-sm text-gray-300">{version.period}</div>
-                          </div>
-                          <div className="text-right">
-                            <div className="text-sm text-gray-400">Influence: {Math.round(version.influence * 100)}%</div>
-                            <Badge 
-                              variant="secondary"
-                              className="mt-1"
-                            >
-                              {Math.round(version.accuracy_impact * 100)}% Impact
-                            </Badge>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse border border-gray-600">
+                      <thead>
+                        <tr className="bg-gray-800">
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Scripture Version</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Region</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Adoption Year</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Paradigm Shift Correlation</th>
+                          <th className="border border-gray-600 px-4 py-2 text-left text-white">Impact Level</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {(Array.isArray(analysisData.religious_influence_tracking.scripture_versions) ? 
+                          analysisData.religious_influence_tracking.scripture_versions : []).slice(0, 10).map((version, index) => (
+                          <tr key={index} className={index % 2 === 0 ? "bg-gray-900" : "bg-gray-800"}>
+                            <td className="border border-gray-600 px-4 py-2 text-white font-semibold">{version.version}</td>
+                            <td className="border border-gray-600 px-4 py-2 text-gray-300">{version.region.replace('_', ' ').toUpperCase()}</td>
+                            <td className="border border-gray-600 px-4 py-2 text-gray-300">{version.adoption_year}</td>
+                            <td className="border border-gray-600 px-4 py-2">
+                              <div className="flex items-center space-x-2">
+                                <div className="w-full bg-gray-700 rounded-full h-2 max-w-20">
+                                  <div 
+                                    className="bg-green-500 h-2 rounded-full" 
+                                    style={{width: `${version.paradigm_shift_correlation * 100}%`}}
+                                  ></div>
+                                </div>
+                                <span className="text-white text-sm">{(version.paradigm_shift_correlation * 100).toFixed(1)}%</span>
+                              </div>
+                            </td>
+                            <td className="border border-gray-600 px-4 py-2">
+                              <Badge variant={version.paradigm_shift_correlation > 0.8 ? "default" : "secondary"}>
+                                {version.paradigm_shift_correlation > 0.8 ? "High" : version.paradigm_shift_correlation > 0.6 ? "Medium" : "Low"}
+                              </Badge>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
                 </CardContent>
               </Card>
