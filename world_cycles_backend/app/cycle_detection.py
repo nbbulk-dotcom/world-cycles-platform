@@ -67,7 +67,7 @@ class CycleDetectionEngine:
             "asia": ["east_asia", "southeast_asia", "western_asia", "south_asia", "central_asia"],
             "europe": ["northern_europe", "southern_europe", "eastern_europe", "western_europe"],
             "africa": ["central_africa", "east_africa", "north_africa", "south_africa", "west_africa"],
-            "oceania": ["oceania"], 
+            "oceania": ["australia", "melanesia", "micronesia", "polynesia"],
             "middle_east": ["middle_east"], 
             "arctic": ["arctic"]
         }
@@ -77,6 +77,13 @@ class CycleDetectionEngine:
             for subregion in subregions:
                 if region == "africa":
                     subregion_path = self.data_dir / subregion
+                elif region in ["middle_east", "arctic"]:
+                    subregion_path = self.data_dir / region
+                elif region == "oceania":
+                    if subregion == "oceania":
+                        subregion_path = self.data_dir / region
+                    else:
+                        subregion_path = self.data_dir / region / subregion
                 else:
                     subregion_path = self.data_dir / region / subregion
                     
@@ -85,6 +92,8 @@ class CycleDetectionEngine:
                         self.global_datasets[region] = {}
                     self.global_datasets[region][subregion] = self._load_region_data(subregion_path)
                     total_subregions += 1
+                else:
+                    logger.warning(f"Data path not found: {subregion_path}")
         
         vatican_path = self.data_dir / "vatican_analysis" / "vatican_global_influence_timeline.csv"
         if vatican_path.exists():
@@ -303,15 +312,16 @@ class CycleDetectionEngine:
             
             if not matching_events.empty:
                 for _, event in matching_events.iterrows():
-                    vatican_influence = self._get_vatican_influence(event['Year'], region)
+                    year_value = event['Year'] if 'Year' in event else event['year']
+                    vatican_influence = self._get_vatican_influence(year_value, region)
                     
                     significance = self._calculate_significance(
-                        event['Year'], cycle_point, cycle_length, len(years)
+                        year_value, cycle_point, cycle_length, len(years)
                     )
                     
                     safe_vatican_influence = float(vatican_influence) if not (math.isnan(vatican_influence) or math.isinf(vatican_influence)) else 0.0
                     safe_significance = float(significance) if not (math.isnan(significance) or math.isinf(significance)) else 0.0
-                    safe_deviation = float(abs(event['Year'] - cycle_point))
+                    safe_deviation = float(abs(year_value - cycle_point))
                     if math.isnan(safe_deviation) or math.isinf(safe_deviation):
                         safe_deviation = 0.0
                     
@@ -327,8 +337,8 @@ class CycleDetectionEngine:
                         "impact_level": str(event.get('Impact_Level', 'Unknown')),
                         "vatican_influence": safe_vatican_influence,
                         "statistical_significance": safe_significance,
-                        "anchor_distance": int(abs(event['Year'] - self.anchor_year)),
-                        "post_1582": bool(event['Year'] >= 1582),
+                        "anchor_distance": int(abs(year_value - self.anchor_year)),
+                        "post_1582": bool(year_value >= 1582),
                         "astronomical_correlation": self._get_astronomical_correlation(event, region)
                     }
                     
@@ -408,8 +418,8 @@ class CycleDetectionEngine:
             if not (math.isnan(value) or math.isinf(value)):
                 astronomical_data['enhanced_score'] = value
         
-        if region and planetary_positions and 'Year' in event:
-            year = int(event['year'])
+        if region and planetary_positions and ('Year' in event or 'year' in event):
+            year = int(event['Year']) if 'Year' in event else int(event['year'])
             visible_planets = visibility_engine.calculate_planetary_visibility(
                 region, year, planetary_positions
             )
@@ -709,7 +719,7 @@ class CycleDetectionEngine:
         
         for _, event in df.iterrows():
             if date_column and date_column in event:
-                year = int(event['year'])
+                year = int(event['Year']) if 'Year' in event else int(event['year'])
                 planetary_positions = {}
                 
                 for planet in ['Jupiter_Position', 'Saturn_Position', 'Mars_Position', 'Venus_Position', 'Mercury_Position']:
