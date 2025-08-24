@@ -44,7 +44,7 @@ class TetrahedronAnalysis:
     def __init__(self, base_offset: int = 46664, reset_window_width: float = 0.1):
         self.base_offset = base_offset
         self.reset_window_width = reset_window_width
-        self.cycle_periods = [20, 50, 160, 250, 500, 2000]
+        self.cycle_periods = [20, 50, 160, 250, 500, 2000, 5500]
         
         # Vatican Observatory establishment - pivotal tracking point for empire alignment
         self.vatican_observatory_year = 1582
@@ -52,22 +52,34 @@ class TetrahedronAnalysis:
         
         self.planetary_angle_of_incidence = 26.565
         
+        self.cycle_types = {
+            20: "Political",
+            50: "Economic",
+            160: "Empire",
+            250: "Religious",
+            500: "Cultural",
+            2000: "Civilisational",
+            5500: "Geological/Reset"
+        }
+        
         self.cycle_colors = {
             20: (220, 50, 50),    # Political - Red dominant
             50: (50, 220, 50),    # Economic - Green dominant  
             160: (50, 50, 220),   # Empire - Blue dominant
-            250: (220, 50, 220),  # Civilizational - Purple
-            500: (220, 220, 50),  # Meta - Gold
-            2000: (180, 180, 180) # Grand - Silver
+            250: (220, 50, 220),  # Religious - Purple
+            500: (220, 220, 50),  # Cultural - Gold
+            2000: (180, 180, 180), # Civilisational - Silver
+            5500: (100, 50, 200)  # Geological/Reset - Deep Purple
         }
         
         self.regional_planetary_angles = {
             "EUROPE": {"base_angle": self.planetary_angle_of_incidence, "modifier": 1.0, "latitude_factor": 0.95},
-            "AFRICA": {"base_angle": self.planetary_angle_of_incidence, "modifier": 1.1, "latitude_factor": 1.05},  # Gabon reference
+            "AFRICA": {"base_angle": self.planetary_angle_of_incidence, "modifier": 1.1, "latitude_factor": 1.05},
             "ASIA": {"base_angle": self.planetary_angle_of_incidence, "modifier": 0.9, "latitude_factor": 0.92},
             "AMERICAS": {"base_angle": self.planetary_angle_of_incidence, "modifier": 1.2, "latitude_factor": 1.08},
             "MIDDLE_EAST": {"base_angle": self.planetary_angle_of_incidence, "modifier": 1.05, "latitude_factor": 1.02},
-            "OCEANIA": {"base_angle": self.planetary_angle_of_incidence, "modifier": 0.95, "latitude_factor": 0.98}
+            "OCEANIA": {"base_angle": self.planetary_angle_of_incidence, "modifier": 0.95, "latitude_factor": 0.98},
+            "ARCTIC": {"base_angle": self.planetary_angle_of_incidence, "modifier": 0.8, "latitude_factor": 0.85}
         }
         
         self.phase_cache = {}

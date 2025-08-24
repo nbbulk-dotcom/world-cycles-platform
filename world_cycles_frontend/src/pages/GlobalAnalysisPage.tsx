@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { RegionalSelector } from '@/components/RegionalSelector'
 import { TimelineVisualization } from '@/components/TimelineVisualization'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts'
 import { Globe, TrendingUp, Calendar, Eye } from 'lucide-react'
+import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts'
 
 interface CycleData {
   cycle_length: number
@@ -153,22 +153,28 @@ export function GlobalAnalysisPage() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <ResponsiveContainer width="100%" height={400}>
-            <BarChart data={cycleData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-              <XAxis dataKey="cycle_length" stroke="#9CA3AF" />
-              <YAxis stroke="#9CA3AF" />
-              <Tooltip 
-                contentStyle={{ 
-                  backgroundColor: '#1F2937', 
-                  border: '1px solid #6B7280',
-                  borderRadius: '8px'
-                }}
-              />
-              <Legend />
-              <Bar dataKey="total_matches" fill="#8B5CF6" name="Total Matches" />
-            </BarChart>
-          </ResponsiveContainer>
+          <div className="overflow-x-auto">
+            <table className="w-full text-white">
+              <thead>
+                <tr className="border-b border-purple-500/30">
+                  <th className="text-left p-3">Cycle Length (Years)</th>
+                  <th className="text-left p-3">Category</th>
+                  <th className="text-left p-3">Total Matches</th>
+                  <th className="text-left p-3">Accuracy</th>
+                </tr>
+              </thead>
+              <tbody>
+                {cycleData.map((cycle, index) => (
+                  <tr key={index} className="border-b border-gray-700/30">
+                    <td className="p-3 font-bold text-purple-400">{cycle.cycle_length}</td>
+                    <td className="p-3">{cycle.cycle_category}</td>
+                    <td className="p-3">{cycle.total_matches}</td>
+                    <td className="p-3">{(cycle.accuracy * 100).toFixed(1)}%</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </CardContent>
       </Card>
 

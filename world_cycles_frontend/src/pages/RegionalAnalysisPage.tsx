@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { RegionalSelector } from '@/components/RegionalSelector'
 import { TimelineVisualization } from '@/components/TimelineVisualization'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { TrendingUp, Eye, MapPin, Telescope } from 'lucide-react'
 
 interface RegionalAnalysisData {
@@ -180,35 +179,35 @@ export function RegionalAnalysisPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ResponsiveContainer width="100%" height={300}>
-                  <LineChart data={getPlanetaryVisibilityChart()}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-                    <XAxis dataKey="year" stroke="#9CA3AF" />
-                    <YAxis stroke="#9CA3AF" />
-                    <Tooltip 
-                      contentStyle={{ 
-                        backgroundColor: '#1F2937', 
-                        border: '1px solid #6B7280',
-                        borderRadius: '8px'
-                      }}
-                    />
-                    <Legend />
-                    <Line 
-                      type="monotone" 
-                      dataKey="influence" 
-                      stroke="#8B5CF6" 
-                      strokeWidth={2}
-                      name="Influence %"
-                    />
-                    <Line 
-                      type="monotone" 
-                      dataKey="visible_planets" 
-                      stroke="#3B82F6" 
-                      strokeWidth={2}
-                      name="Visible Planets"
-                    />
-                  </LineChart>
-                </ResponsiveContainer>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-white">
+                    <thead>
+                      <tr className="border-b border-yellow-500/30">
+                        <th className="text-left p-3">Year</th>
+                        <th className="text-left p-3">Visible Planets</th>
+                        <th className="text-left p-3">Influence Factor</th>
+                        <th className="text-left p-3">Alignment Quality</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {getPlanetaryVisibilityChart().map((data, index) => (
+                        <tr key={index} className="border-b border-gray-700/30">
+                          <td className="p-3 font-bold text-yellow-400">{data.year}</td>
+                          <td className="p-3">{data.visible_planets}</td>
+                          <td className="p-3">{(data.influence_factor * 100).toFixed(1)}%</td>
+                          <td className="p-3">
+                            <span className={`px-2 py-1 rounded text-xs ${
+                              data.visible_planets >= 4 ? 'bg-green-600' : 
+                              data.visible_planets >= 2 ? 'bg-yellow-600' : 'bg-red-600'
+                            }`}>
+                              {data.visible_planets >= 4 ? 'Excellent' : data.visible_planets >= 2 ? 'Good' : 'Poor'}
+                            </span>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </CardContent>
             </Card>
 
