@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8080
 
 # Force uvicorn startup - bypass any buildpack detection
-CMD ["python", "-m", "uvicorn", "multi_llm_interface:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
