@@ -1,0 +1,121 @@
+{
+  "space_fields": {
+    "VAR_SOLAR_WIND": {
+      "center": 397.5776166365184,
+      "tolerance": 2.6334869432102725,
+      "min_threshold": 394.9441296933081,
+      "max_threshold": 400.21110357972873,
+      "consistency": "HIGH"
+    },
+    "VAR_MAGNETIC_FIELD": {
+      "center": 69762.91108738337,
+      "tolerance": 532.5261583964973,
+      "min_threshold": 69230.38492898687,
+      "max_threshold": 70295.43724577987,
+      "consistency": "HIGH"
+    },
+    "VAR_COSMIC_RAYS": {
+      "center": 3.200000000000001,
+      "tolerance": 1.8067241133067846e-15,
+      "min_threshold": 3.1999999999999993,
+      "max_threshold": 3.200000000000003,
+      "consistency": "HIGH"
+    },
+    "VAR_IONOSPHERIC": {
+      "center": 17.510594186074073,
+      "tolerance": 0.15131431533531578,
+      "min_threshold": 17.359279870738757,
+      "max_threshold": 17.66190850140939,
+      "consistency": "HIGH"
+    },
+    "VAR_GEOMAGNETIC": {
+      "center": 2.930042265670102,
+      "tolerance": 0.022366098652652884,
+      "min_threshold": 2.907676167017449,
+      "max_threshold": 2.952408364322755,
+      "consistency": "HIGH"
+    },
+    "VAR_SOLAR_FLARES": {
+      "center": 102.87320830469915,
+      "tolerance": 0.6814147465556569,
+      "min_threshold": 102.19179355814349,
+      "max_threshold": 103.55462305125481,
+      "consistency": "HIGH"
+    },
+    "VAR_CORONAL_MASS": {
+      "center": 0.8000000000000003,
+      "tolerance": 4.516810283266961e-16,
+      "min_threshold": 0.7999999999999998,
+      "max_threshold": 0.8000000000000007,
+      "consistency": "HIGH"
+    },
+    "VAR_SCHUMANN": {
+      "center": 7.830000000000003,
+      "tolerance": 5.420172339920354e-15,
+      "min_threshold": 7.829999999999997,
+      "max_threshold": 7.830000000000008,
+      "consistency": "HIGH"
+    },
+    "VAR_ATMOSPHERIC": {
+      "center": 1013.25,
+      "tolerance": 0.0,
+      "min_threshold": 1013.25,
+      "max_threshold": 1013.25,
+      "consistency": "HIGH"
+    },
+    "VAR_MAGNETOSPHERE": {
+      "center": 0.0,
+      "tolerance": 0.0,
+      "min_threshold": 0.0,
+      "max_threshold": 0.0,
+      "consistency": "HIGH"
+    },
+    "VAR_PLASMA_DENSITY": {
+      "center": 5.0,
+      "tolerance": 0.0,
+      "min_threshold": 5.0,
+      "max_threshold": 5.0,
+      "consistency": "HIGH"
+    },
+    "VAR_ELECTROMAGNETIC": {
+      "center": 3.767197198718703,
+      "tolerance": 0.028756412553410843,
+      "min_threshold": 3.738440786165292,
+      "max_threshold": 3.795953611272114,
+      "consistency": "HIGH"
+    }
+  },
+  "geometric_factors": {
+    "Convergence_Factor": {
+      "center": 0.49991797950898054,
+      "tolerance": 0.0064905238622048065,
+      "min_threshold": 0.4934274556467757,
+      "max_threshold": 0.5064085033711854
+    },
+    "Sun_Ray_Intensity": {
+      "center": 34.64435211082443,
+      "tolerance": 1.6169305604933994,
+      "min_threshold": 33.02742155033103,
+      "max_threshold": 36.26128267131783
+    },
+    "Tetrahedral_Optimized_Angle": {
+      "center": 30.095314612789057,
+      "tolerance": 0.8770426846339452,
+      "min_threshold": 29.21827192815511,
+      "max_threshold": 30.972357297423002
+    },
+    "RGB_Focus_Factor": {
+      "center": 0.5029139003134868,
+      "tolerance": 0.00679748600553307,
+      "min_threshold": 0.4961164143079537,
+      "max_threshold": 0.5097113863190199
+    },
+    "CMYK_Focus_Factor": {
+      "center": 0.4969220587044744,
+      "tolerance": 0.006183562681628924,
+      "min_threshold": 0.49073849602284547,
+      "max_threshold": 0.5031056213861034
+    }
+  },
+  "thresholds": {}
+}
