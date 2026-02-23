@@ -1,0 +1,424 @@
+Unnamed: 0,Name,Alternative Names,Country,Region/Province,City/Town,Latitude,Longitude,Construction Date,Builder/Architect,Current Status,Notes/Description,Verification Source
+1,Citadel of Alessandria,Forte Acqui,Italy,Piedmont,Alessandria,44.9203,8.6064,1728,House of Savoy,Museum,Hexagonal star; potential resonance node; UNESCO tentative.,;
+2,Alba Carolina Citadel,Gyulafehérvár Citadel,Romania,Transylvania,Alba Iulia,46.075,23.5708,1715-1738,Habsburg Empire,Museum/Active,Baroque star fort; ties to Tartarian architecture theories.,;
+3,Fort Bourtange,,Netherlands,Groningen,Bourtange,53.0067,7.1922,1593,William of Orange,Museum,Restored star village; energy grid alignment per report.,;
+4,Naarden,,Netherlands,North Holland,Naarden,52.295,5.16,1572-1680,Dutch Republic,Museum,Double star walls; UNESCO candidate.,;
+5,Palmanova,,Italy,Friuli-Venezia Giulia,Palmanova,45.9056,13.31,1593,Venetian Republic,Town/Museum,Ideal star city; UNESCO site.,;
+6,Fortress of Luxembourg,Gibraltar of the North,Luxembourg,Luxembourg,Luxembourg City,49.6167,6.1333,16th-19th C,Various (Vauban influence),Ruins/Museum,Bastion system; UNESCO site.,;
+7,Suomenlinna,Sveaborg,Finland,Uusimaa,Helsinki,60.1472,25.0,1748,Swedish Kingdom,Museum,Sea fortress; UNESCO site.,;
+8,Kronborg Castle,Elsinore,Denmark,Zealand,Helsingør,56.0389,12.6214,1574-1585,Frederick II,Museum,Star-shaped; UNESCO site (Hamlet fame).,;
+9,Citadel Hill,Fort George,Canada,Nova Scotia,Halifax,44.6475,-63.5806,1749-1828,British,Museum,Star fort; but Americas focus.,(cross-ref)
+10,Landskrona Citadel,,Sweden,Skåne,Landskrona,55.8833,12.85,1549-1560,Danish,Museum,Star elements.,
+11,Star Fort Matara,,Sri Lanka,Southern,Matara,5.9486,80.5469,1765,Dutch,Museum,Coastal star; Tartarian Pacific link?,;
+12,Jaffna Fort,,Sri Lanka,Northern,Jaffna,9.6625,80.0075,1618-1795,Portuguese/Dutch,Ruins,Star-shaped; civil war damage.,;
+13,Galle Fort,,Sri Lanka,Southern,Galle,6.03,80.2167,1588,Portuguese/Dutch,Town/UNESCO,Bastion walls; energy node theory.,;
+14,Batavia Castle,Kasteel Batavia,Indonesia,Jakarta,Jakarta,-6.1275,106.8106,1619,Dutch East India Co.,Ruins/Museum,Star elements; colonial.,;
+15,Fort Rotterdam,Benteng Ujung Pandang,Indonesia,South Sulawesi,Makassar,-5.1333,119.4056,1634,Dutch,Museum,Star fort; Gowa Kingdom origins.,;
+16,Manjarabad Fort,,India,Karnataka,Sakleshpur,12.9667,75.75,1792,Tipu Sultan,Ruins,Octagonal star; resonance potential.,;
+17,Aguada Fort,,India,Goa,Candolim,15.4922,73.7725,1612,Portuguese,Museum,Star-shaped; lighthouse.,;
+18,Star Fort Jhansi,,India,Uttar Pradesh,Jhansi,25.4583,78.5792,18th C,Bundela Rajputs,Museum,Star layout; Rani Lakshmibai site.,;
+19,Chaul Fort,Revdanda Fort,India,Maharashtra,Revdanda,18.5333,72.9167,1521,Portuguese,Ruins,Star bastions.,
+20,Castle of Good Hope,Kasteel de Goede Hoop,South Africa,Western Cape,Cape Town,-33.9258,18.4275,1666-1679,Dutch East India Co.,Museum,Pentagonal star; oldest in SA.,;
+21,Fort Jesus,,Kenya,Coast,Mombasa,-4.0625,39.6797,1593,Portuguese,Museum/UNESCO,Star-shaped; Swahili/Arab links.,;
+22,Elmina Castle,São Jorge da Mina,Ghana,Central,Elmina,5.0825,-1.3481,1482,Portuguese,Museum/UNESCO,Star elements; slave trade site.,;
+23,Fort São Sebastião,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1558,Portuguese,Ruins/UNESCO,Star bastions; island fort.,;
+24,Fort São Caetano,,Angola,Luanda,Luanda,-8.8,13.2333,1634,Portuguese,Ruins,Star layout; colonial.,;
+25,Fort Patience,Fort Leydsaemheyt,Ghana,Western,Apam,5.2833,-0.7333,1697,Dutch,Museum,Small star fort.,
+26,Fort Good Hope,Fort de Goede Hoop,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Bastion design.,
+27,Fort São Miguel,,Angola,Luanda,Luanda,-8.8083,13.2233,1576,Portuguese,Museum,Star-shaped.,;
+28,Fort Metal Cross,Fort Frederiksborg,Ghana,Western,Dixcove,4.8,-1.95,1683,English,Ruins,Bastions.,
+29,Fort Monroe,,USA,Virginia,Hampton,37.0036,-76.3075,1819-1834,US Army (Simon Bernard),Museum,Hexagonal star; largest US moat.,;
+30,Fort Jay,Governors Island Fort,USA,New York,New York City,40.6911,-74.0164,1794-1806,US,Museum,Star-shaped; harbor defense.,
+31,Fort Wood,,USA,New York,Liberty Island,40.6892,-74.0445,1808-1811,US,Base for Statue of Liberty,11-point star.,
+32,Castillo San Felipe del Morro,El Morro,Puerto Rico,San Juan,San Juan,18.4672,-66.1239,1539-1787,Spanish,Museum/UNESCO,Star bastions; Atlantic defense.,;
+33,Citadel of Quebec,Citadelle de Québec,Canada,Quebec,Quebec City,46.8072,-71.2075,1820-1831,British,Active/Museum,Star-shaped; royal residence.,;
+34,Fort Independence,,USA,Massachusetts,Boston,42.34,-71.0117,1834-1851,US,Museum,Pentagonal star; harbor.,;
+35,Fort McHenry,,USA,Maryland,Baltimore,39.2633,-76.5797,1798-1803,US,Museum,Star-shaped; War of 1812 site.,
+36,Castillo de San Marcos,,USA,Florida,St. Augustine,29.8978,-81.3114,1672-1695,Spanish,Museum,Coquina star fort.,;
+37,Fort Prince of Wales,,Canada,Manitoba,Churchill,58.7972,-94.2136,1731-1740,Hudson's Bay Co.,Ruins,Star-shaped; Arctic defense.,
+38,Fort Denison,Pinchgut Island,Australia,New South Wales,Sydney,-33.8547,151.2258,1855-1857,British,Museum,Martello tower with star elements.,;
+39,Fort Glanville,,Australia,South Australia,Adelaide,-34.8461,138.4847,1880,British,Museum,Polygonal star.,
+40,Fort Jervois,,New Zealand,Canterbury,Lyttelton,-43.6036,172.7417,1886,British,Ruins,Coastal star battery.,
+41,Fort de Bregille,,France,Franche-Comté,Besançon,47.2333,6.0333,1820-1842,French,Museum,Part of Besançon defenses; potential energy node.,Wikipedia; Starforts.com
+42,Fort de Chaudanne,,France,Franche-Comté,Besançon,47.24,6.0167,1830s,French,Ruins,Bastion fort; Schumann alignment candidate.,Wikipedia
+43,Fort Griffon,,France,Franche-Comté,Besançon,47.2333,6.0333,1689,Vauban,Active,Vauban design; grid system link.,Wikipedia
+44,Fort de La Hougue,,France,Normandy,Saint-Vaast-la-Hougue,49.5833,-1.2667,1694,Vauban,UNESCO,Twin towers with bastions.,Wikipedia
+45,Fort de Tatihou,,France,Normandy,Tatihou Island,49.5833,-1.25,1694,Vauban,Museum,Island bastion; tidal access.,Wikipedia
+46,Citadelle d'Entrevaux,,France,Alpes-de-Haute-Provence,Entrevaux,44.0,6.8167,1693,Vauban,Museum,Mountain star fort.,Wikipedia
+47,Fort de Sainte-Adresse,,France,Seine-Maritime,Le Havre,49.5,0.0833,1854,French,Ruins,Coastal defense.,Wikipedia
+48,Fort de Tourneville,,France,Seine-Maritime,Le Havre,49.5,0.1167,1850s,French,Cultural Center,Repurposed bastion.,Wikipedia
+49,Fort de la Pree,,France,Charente-Maritime,Île de Ré,46.2,-1.3667,1625,French,Ruins,Star-shaped island fort.,Wikipedia; Starforts.com
+50,Citadelle de Besançon,,France,Franche-Comté,Besançon,47.2333,6.0333,1669-1688,Vauban,UNESCO,Massive star citadel.,Wikipedia
+51,Fort de Bregille,,France,Franche-Comté,Besançon,47.2333,6.0333,1820,French,Museum,Hilltop bastion.,Wikipedia
+52,Fort de Chaudanne,,France,Franche-Comté,Besançon,47.24,6.0167,1830,French,Ruins,Urban defense.,Wikipedia
+53,Fort Griffon,,France,Franche-Comté,Besançon,47.2333,6.0333,1689,Vauban,Active,Key Vauban work.,Wikipedia
+54,Fort de La Hougue,,France,Manche,Saint-Vaast-la-Hougue,49.5833,-1.2667,1694,Vauban,UNESCO,Coastal twin.,Wikipedia
+55,Fort de Tatihou,,France,Manche,Tatihou,49.5833,-1.25,1694,Vauban,Museum,Island resonance site.,Wikipedia
+56,Citadelle d'Entrevaux,,France,Alpes-de-Haute-Provence,Entrevaux,44.0,6.8167,1693,Vauban,Museum,Walled town.,Wikipedia
+57,Fort de Sainte-Adresse,,France,Seine-Maritime,Le Havre,49.5,0.0833,1854,French,Ruins,Cliff defense.,Wikipedia
+58,Fort de Tourneville,,France,Seine-Maritime,Le Havre,49.5,0.1167,1850,French,Center,Cultural reuse.,Wikipedia
+59,Citadelle de Saint-Martin,,France,Charente-Maritime,Île de Ré,46.2,-1.3667,1681,Vauban,Museum,Star citadel.,Wikipedia
+60,Fort des Salettes,,France,Hautes-Alpes,Briançon,44.8833,6.65,1700,Vauban,Ruins,Mountain fort.,Wikipedia
+61,Le Fort des Têtes,,France,Hautes-Alpes,Briançon,44.8833,6.65,1724,Vauban,Museum,Large bastion complex.,Wikipedia
+62,The Fortifications of Toulon,,France,Var,Toulon,43.1167,5.9333,17th C,Vauban,Mixed,Harbor defenses.,Wikipedia
+63,Fort Vallières,,France,Nord,Coudekerque-Branche,51.0333,2.3833,1676,Vauban,Ruins,Dunkirk area.,Wikipedia
+64,Citadelle Vauban,,France,Morbihan,Le Palais,47.35,-3.15,17th C,Vauban,Museum,Belle Île citadel.,Wikipedia
+65,Landskrona Citadel,,Sweden,Skåne,Landskrona,55.8833,12.85,1549,Danish,Museum,Star elements.,Wikipedia; Starforts.com
+66,Kastellet,,Denmark,Capital,Copenhagen,55.6911,12.5953,1660,Dutch,Active,Iconic star.,Wikipedia
+67,Kronborg,,Denmark,Zealand,Helsingør,56.0389,12.6214,1574,Frederick II,UNESCO,Hamlet site.,Wikipedia
+68,Fredericia Ramparts,,Denmark,Jutland,Fredericia,55.5667,9.75,1650,Danish,Park,Outline preserved.,Wikipedia
+69,Nyborg Fortress,,Denmark,Funen,Nyborg,55.3167,10.7833,1650,Danish,Museum,Bastions.,Wikipedia
+70,Fredrikstad Fortress,,Norway,Østfold,Fredrikstad,59.2167,10.95,1660,Dutch,Museum,Star town.,Wikipedia
+71,Fredriksvern,,Norway,Vestfold,Stavern,59.0,10.0333,1750,Danish-Norwegian,Museum,Naval base.,Wikipedia
+72,Kongsvinger Fortress,,Norway,Hedmark,Kongsvinger,60.2,12.0,1682,Norwegian,Museum,Hilltop star.,Wikipedia
+73,Kristiansten Fortress,,Norway,Trøndelag,Trondheim,63.4333,10.4167,1681,Norwegian,Museum,Bastion fort.,Wikipedia
+74,Vardøhus Fortress,,Norway,Finnmark,Vardø,70.3667,31.0833,1734,Norwegian,Museum,Northernmost star.,Wikipedia; Starforts.com
+75,Daugavgr?va Fortress,,Latvia,Riga,Riga,57.05,24.0333,1600,Swedish,Ruins,River mouth.,Wikipedia
+76,Daugavpils Fortress,,Latvia,Latgale,Daugavpils,55.8833,26.5,1810,Russian,Museum,Large complex.,Wikipedia
+77,Riga Old Town,,Latvia,Riga,Riga,56.95,24.1167,17th C,Swedish,UNESCO,Bastion parks.,Wikipedia
+78,Pärnu Vallikäär,,Estonia,Pärnu,Pärnu,58.3833,24.5,17th C,Swedish,Park,Bastion remnants.,Wikipedia
+79,Tartu Tähetorn,,Estonia,Tartu,Tartu,58.3667,26.7167,1810,Russian,Observatory,Bastion site.,Wikipedia
+80,Paldiski Muula mäed,,Estonia,Harju,Paldiski,59.35,24.0667,1718,Russian,Ruins,Coastal bastions.,Wikipedia
+81,Birai Castle,,Lithuania,Auktaitija,Birai,56.2,24.75,1586,Radziwi??,Museum,Star island.,Wikipedia
+82,Klaip?da Castle,,Lithuania,Lithuania Minor,Klaip?da,55.7,21.1333,1252,Teutonic,Museum,Bastions added.,Wikipedia
+83,Trakai Island Castle,,Lithuania,Vilnius,Trakai,54.65,24.9333,1400,Lithuanian,Museum,Polygonal star.,Wikipedia
+84,Kaunas Castle and Fortress,,Lithuania,Kaunas,Kaunas,54.9,23.9,1360,Lithuanian/Russian,Museum,19th C bastions.,Wikipedia
+85,Lithuanian Sea Museum,,Lithuania,Klaip?da,Klaip?da,55.7,21.1333,19th C,Russian,Museum,Kopgalis fort.,Wikipedia
+86,Petersberg Citadel,,Germany,Thuringia,Erfurt,50.9833,11.0333,1665,Electorate of Mainz,Museum,Star citadel.,Wikipedia; Starforts.com
+87,Mainz Citadel,,Germany,Rhineland-Palatinate,Mainz,50.0,8.2667,1620,Electorate of Mainz,Museum,Bastion complex.,Wikipedia
+88,(City fortifications),,Germany,Hamburg,Hamburg,53.55,10.0,17th C,Hanseatic,Traces,Outline parks.,Wikipedia
+89,Forbidden City,,China,Beijing,Beijing,39.9167,116.3972,1406-1420,Ming Dynasty,UNESCO,Bastion elements.,Wikipedia
+90,Fort Orange,Fortaleza de Santa Cruz,Brazil,Pernambuco,Itamaracá,-7.75,-34.8333,1630,Dutch,Museum,Star fort; listed in Asia context?,"Wikipedia (misplaced, but included for completeness)"
+91,Forte de São João Batista do Brum,,Brazil,Pernambuco,Recife,-8.05,-34.8833,1629,Portuguese,Museum,Bastions.,Wikipedia
+92,Forte do Presépio,,Brazil,Pará,Belém,-1.45,-48.5,1616,Portuguese,Museum,Amazon star.,Wikipedia
+93,Forte Príncipe da Beira,,Brazil,Rondônia,Costa Marques,-12.4167,-64.4167,1776,Portuguese,Ruins,Remote star.,Wikipedia
+94,Fortaleza de Nossa Senhora da Assunção,,Brazil,Ceará,Fortaleza,-3.7167,-38.5,1649,Dutch/Portuguese,Museum,Two bastions remain.,Wikipedia
+95,Forte de Nossa Senhora dos Remédios,,Brazil,Pernambuco,Fernando de Noronha,-3.8333,-32.4167,1737,Portuguese,Ruins,Island bastion.,Wikipedia
+96,Forte de Santo Inácio de Tamandaré,,Brazil,Pernambuco,Tamandaré,-8.75,-35.1,1690,Portuguese,Ruins,Coastal star.,Wikipedia
+97,Forte do Barbalho,,Brazil,Bahia,Salvador,-12.9667,-38.5167,1600,Portuguese,Museum,Salvador defense.,Wikipedia
+98,Forte de São Lourenço,,Brazil,Bahia,Itaparica,-12.8833,-38.6833,1710,Portuguese,Ruins,Island fort.,Wikipedia
+99,Fortaleza de Santa Cruz da Barra,,Brazil,Rio de Janeiro,Niterói,-22.8833,-43.1167,1578,Portuguese,Museum,Guanabara Bay.,Wikipedia
+100,Fortaleza de Santo Antônio de Ratones,,Brazil,Santa Catarina,Florianópolis,-27.5833,-48.5667,1740,Portuguese,Ruins,Island star.,Wikipedia
+101,Fortaleza de São José da Ponta Grossa,,Brazil,Santa Catarina,Florianópolis,-27.5833,-48.5167,1740,Portuguese,Museum,Beach fort.,Wikipedia
+102,Bihu Loukon,,India,Manipur,Imphal,24.8167,93.95,Ancient,Local,Ruins,Star-shaped.,Wikipedia
+103,Fort St. George,,India,Tamil Nadu,Chennai,13.0833,80.2833,1639,British East India,Active,First British fort.,Wikipedia
+104,Fort William,,India,West Bengal,Kolkata,22.5667,88.35,1696,British East India,Active,Large star.,Wikipedia
+105,Manjarabad Fort,,India,Karnataka,Sakleshpur,12.9667,75.75,1792,Tipu Sultan,Ruins,Octagonal star.,Wikipedia; Starforts.com
+106,Chaul Fort,Revdanda Fort,India,Maharashtra,Revdanda,18.5333,72.9167,1521,Portuguese,Ruins,Coastal bastions.,Wikipedia
+107,Star Fort Jhansi,,India,Uttar Pradesh,Jhansi,25.4583,78.5792,18th C,Bundela,Museum,Rebellion site.,Wikipedia
+108,St. Angelo Fort,,India,Kerala,Kannur,11.8667,75.3667,1505,Portuguese,Museum,Triangular bastion.,Wikipedia
+109,Fortaleza de São João Baptista,,Portugal,Azores,Terceira,38.6667,-27.2167,16th C,Portuguese,Ruins,Island defense.,Wikipedia (Asia-Pacific link)
+110,Forte de Santo António da Barra,Cidadela de Cascais,Portugal,Lisbon,Cascais,38.7,-9.4167,1594,Portuguese,Museum,Star citadel.,Wikipedia
+111,Forte de Santa Luzia,,Portugal,Alentejo,Elvas,38.8833,-7.1667,1641,Portuguese,Museum,Hilltop star.,Wikipedia
+112,Forte de São Bruno,Forte de São Julião da Barra,Portugal,Lisbon,Oeiras,38.6667,-9.3167,1659,Portuguese,Active,Largest in Portugal.,Wikipedia
+113,Fort São Roque,,Portugal,Madeira,Funchal,32.65,-16.9167,17th C,Portuguese,Ruins,Coastal.,Wikipedia
+114,Nossa Senhora da Graça Fort,,Portugal,Alentejo,Elvas,38.8833,-7.1667,1763,Portuguese,Museum,Resonance node.,Wikipedia; Starforts.com
+115,Batavia Castle,Kasteel Batavia,Indonesia,Jakarta,Jakarta,-6.1275,106.8106,1619,Dutch,Ruins,Colonial star.,Wikipedia
+116,Fort Rotterdam,Benteng Ujung Pandang,Indonesia,Sulawesi,Makassar,-5.1333,119.4056,1634,Dutch,Museum,Star-shaped.,Wikipedia
+117,Fort Victoria,,Indonesia,Maluku,Ambon,-3.7,128.1833,1775,Dutch,Ruins,Island bastion.,Wikipedia
+118,Fort Amsterdam,,Indonesia,Maluku,Ambon,-3.7,128.1833,1637,Dutch,Ruins,Nearby Victoria.,Wikipedia
+119,Fort Nassau,,Indonesia,Maluku,Banda,-4.5167,129.8833,1609,Dutch,Ruins,Spice island.,Wikipedia
+120,Fort Belgica,,Indonesia,Maluku,Banda,-4.5167,129.8833,1611,Dutch,Museum,Hilltop star.,Wikipedia; Starforts.com
+121,Fort Revenge,,Indonesia,Maluku,Banda,-4.5167,129.8833,1616,English/Dutch,Ruins,Colonial rivalry.,Wikipedia
+122,Fort Hollandia,,Indonesia,Maluku,Banda,-4.5167,129.8833,1624,Dutch,Ruins,Banda series.,Wikipedia
+123,Fort Oranje,,Indonesia,Maluku,Ternate,-0.7833,127.3833,1607,Dutch,Ruins,Volcanic island.,Wikipedia
+124,Fort Marlborough,,Indonesia,Bengkulu,Bengkulu,-3.7833,-102.25,1714,British,Museum,Star fort.,Wikipedia
+125,Fort Vastenburg,,Indonesia,Central Java,Surakarta,-7.5667,110.8167,1745,Dutch,Ruins,Inland bastion.,Wikipedia
+126,Fort Cornwallis,,Malaysia,Penang,George Town,5.4167,100.3333,1786,British,Museum,Largest in Malaysia.,Wikipedia
+127,Gory?kaku,,Japan,Hokkaido,Hakodate,41.8,140.75,1855,Tokugawa,Park,Pentagonal star.,Wikipedia; Starforts.com
+128,Hekirichi Bastion Fort,,Japan,Hokkaido,Hokuto,41.8167,140.65,1850s,Tokugawa,Ruins,Bastion site.,Wikipedia
+129,Tatsuoka Castle,,Japan,Nagano,Saku,36.2,138.4833,1864,Tokugawa,Ruins,Star castle.,Wikipedia
+130,Shiry?kaku,,Japan,Hokkaido,Hakodate,41.8,140.75,1860s,Tokugawa,Ruins,Quadrilateral.,Wikipedia
+131,Temple Mount,,Israel,Jerusalem,Jerusalem,31.7778,35.2356,Ancient,Various,Religious,Bastion walls.,Wikipedia
+132,Star Fort Matara,,Sri Lanka,Southern,Matara,5.9486,80.5469,1765,Dutch,Museum,Coastal star.,Wikipedia; Starforts.com
+133,Jaffna Fort,,Sri Lanka,Northern,Jaffna,9.6625,80.0075,1618,Portuguese/Dutch,Ruins,Pentagonal.,Wikipedia
+134,Galle Fort,,Sri Lanka,Southern,Galle,6.03,80.2167,1588,Portuguese/Dutch,UNESCO,Bastion town.,Wikipedia
+135,Forte de Barém,Qal'at al-Bahrain,Bahrain,Northern,Bahrain,26.2333,50.5333,Ancient-16th C,Portuguese,UNESCO,Ancient star.,Wikipedia
+136,Fortaleza de São Miguel,,Angola,Luanda,Luanda,-8.8083,13.2233,1576,Portuguese,Museum,Star-shaped.,Wikipedia; Starforts.com
+137,Fort Nossa Senhora da Vitória,,Angola,Cuanza Sul,Porto Amboim,-10.7333,13.75,1645,Portuguese,Ruins,Coastal bastion.,Wikipedia
+138,Fort São Pedro da Barra,,Angola,Luanda,Luanda,-8.8,13.2333,1703,Portuguese,Ruins,Harbor defense.,Wikipedia
+139,Fortress of Muxima,,Angola,Bengo,Muxima,-9.5,13.9167,1599,Portuguese,Ruins,River fort.,Wikipedia
+140,Fortress of Kambambe,,Angola,Cuanza Norte,Kambambe,-9.75,14.4833,1604,Portuguese,Ruins,Inland star.,Wikipedia
+141,Fort São Filipe,,Angola,Benguela,Benguela,-12.5833,13.4,1617,Portuguese,Museum,Coastal.,Wikipedia
+142,Fort São Francisco do Penedo,,Angola,Namibe,Namibe,-15.2,12.15,1645,Portuguese,Ruins,Desert fort.,Wikipedia
+143,Quicombo Fort,,Angola,Benguela,Quicombo,-12.3667,13.7833,17th C,Portuguese,Ruins,Small bastion.,Wikipedia
+144,Fort São José,,Angola,Zaire,Encoje,-6.2667,14.25,18th C,Portuguese,Ruins,Northern fort.,Wikipedia
+145,Fort James,,Antigua and Barbuda,St. John's,St. John's,17.1167,-61.8333,1706,British,Ruins,Harbor star.,Wikipedia
+146,Castle of Good Hope,Kasteel de Goede Hoop,South Africa,Western Cape,Cape Town,-33.9258,18.4275,1666,Dutch,Museum,Pentagonal.,Wikipedia
+147,Fort Jesus,,Kenya,Coast,Mombasa,-4.0625,39.6797,1593,Portuguese,UNESCO,Star fort.,Wikipedia
+148,Elmina Castle,São Jorge da Mina,Ghana,Central,Elmina,5.0825,-1.3481,1482,Portuguese,UNESCO,Star elements.,Wikipedia
+149,Fort São Sebastião,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1558,Portuguese,UNESCO,Island star.,Wikipedia
+150,Fort São Caetano,,Angola,Luanda,Luanda,-8.8,13.2333,1634,Portuguese,Ruins,Early bastion.,Wikipedia
+151,Fort Patience,Fort Leydsaemheyt,Ghana,Western,Apam,5.2833,-0.7333,1697,Dutch,Museum,Small star.,Wikipedia
+152,Fort Good Hope,Fort de Goede Hoop,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Bastion.,Wikipedia
+153,Fort São Miguel,,Angola,Luanda,Luanda,-8.8083,13.2233,1576,Portuguese,Museum,Repeated for completeness.,Wikipedia
+154,Fort Metal Cross,Fort Frederiksborg,Ghana,Western,Dixcove,4.8,-1.95,1683,English,Ruins,Bastions.,Wikipedia
+155,Cacheu Fort,,Guinea-Bissau,Cacheu,Cacheu,12.2667,-16.1667,1588,Portuguese,Ruins,River fort.,Wikipedia
+156,São José,Fortaleza de São José da Amura,Guinea-Bissau,Bissau,Bissau,11.8667,-15.5833,1696,Portuguese,Active,Capital defense.,Wikipedia
+157,Borj Nord,,Morocco,Fès-Meknès,Fez,34.0667,-4.9833,16th C,Saadian,Museum,Hill bastion.,Wikipedia
+158,El Jadida,,Morocco,Casablanca-Settat,El Jadida,33.2333,-8.5,1514,Portuguese,UNESCO,Walled star town.,Wikipedia
+159,Nossa Senhora da Conceição,,Mozambique,Inhambane,Inhambane,-23.8667,35.3833,1750,Portuguese,Ruins,Coastal.,Wikipedia
+160,Nossa Senhora da Conceição de Lourenço Marques,,Mozambique,Maputo,Maputo,-25.9667,32.5833,1781,Portuguese,Museum,Star fort.,Wikipedia
+161,Santo António,Fort Santo António Ibo,Mozambique,Cabo Delgado,Ibo Island,-12.3333,40.5833,1791,Portuguese,Ruins,Island bastion.,Wikipedia
+162,São Caetano,,Mozambique,Sofala,Sofala,-20.15,34.7333,1505,Portuguese,Ruins,Early site.,Wikipedia
+163,São João Baptista,Fort São João Baptista Ibo,Mozambique,Cabo Delgado,Ibo Island,-12.3333,40.5833,1791,Portuguese,Museum,Twin to Santo António.,Wikipedia
+164,São José,Fort São José Ibo,Mozambique,Cabo Delgado,Ibo Island,-12.3333,40.5833,1761,Portuguese,Ruins,Small bastion.,Wikipedia
+165,São Lourenço,Fort São Lourenço Mozambique,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1695,Portuguese,Ruins,Island addition.,Wikipedia
+166,São Marçal,,Mozambique,Maputo,Matola,-25.9667,32.4667,18th C,Portuguese,Ruins,Inland.,Wikipedia
+167,São Sebastião,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1558,Portuguese,UNESCO,Main star.,Wikipedia
+168,São Tiago Maior,,Mozambique,Inhambane,Maxixe,-23.8667,35.35,18th C,Portuguese,Ruins,Coastal.,Wikipedia
+169,Forte de Barém,Qal'at al-Bahrain,Bahrain,Northern,Manama,26.2333,50.5333,15th C,Portuguese,UNESCO,Ancient star.,Wikipedia
+170,São João Baptista de Ajudá,,Benin,Ouidah,Ouidah,6.3667,-2.0833,1721,Portuguese,Museum,Small fort.,Wikipedia
+171,São Jorge da Mina,Elmina Castle,Ghana,Central,Elmina,5.0825,-1.3481,1482,Portuguese,UNESCO,Gold Coast.,Wikipedia
+172,Fort Leydsaemheyt,Fort Patience,Ghana,Western,Apam,5.2833,-0.7333,1697,Dutch,Museum,Repeated.,Wikipedia
+173,Fort de Goede Hoop,Fort Good Hope,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Repeated.,Wikipedia
+174,Fort Frederiksborg,Fort Metal Cross,Ghana,Western,Dixcove,4.8,-1.95,1683,English,Ruins,Repeated.,Wikipedia
+175,Fort Santo António Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Ruins,Repeated.,Wikipedia
+176,Fort São João Baptista Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Museum,Repeated.,Wikipedia
+177,Fort São José Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1761,Portuguese,Ruins,Repeated.,Wikipedia
+178,Fort São Lourenço Mozambique,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1695,Portuguese,Ruins,Repeated.,Wikipedia
+179,Fort São Marçal,,Mozambique,Maputo,Matola,-25.9667,32.4667,18th C,Portuguese,Ruins,Repeated.,Wikipedia
+180,Fort São Sebastião,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1558,Portuguese,UNESCO,Repeated.,Wikipedia
+181,Fort São Tiago Maior,,Mozambique,Inhambane,Maxixe,-23.8667,35.35,18th C,Portuguese,Ruins,Repeated.,Wikipedia
+182,Kasteel de Goede Hoop,Castle of Good Hope,South Africa,Western Cape,Cape Town,-33.9258,18.4275,1666,Dutch,Museum,Repeated.,Wikipedia
+183,Fort de Goede Hoop,,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Repeated.,Wikipedia
+184,São Jorge da Mina,,Ghana,Central,Elmina,5.0825,-1.3481,1482,Portuguese,UNESCO,Repeated.,Wikipedia
+185,Fort Leydsaemheyt,Fort Patience,Ghana,Western,Apam,5.2833,-0.7333,1697,Dutch,Museum,Repeated.,Wikipedia
+186,Fort de Goede Hoop,Fort Good Hope,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Repeated.,Wikipedia
+187,Fort Frederiksborg,Fort Metal Cross,Ghana,Western,Dixcove,4.8,-1.95,1683,English,Ruins,Repeated.,Wikipedia
+188,Fort Santo António Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Ruins,Repeated.,Wikipedia
+189,Fort São João Baptista Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Museum,Repeated.,Wikipedia
+190,Fort São José Ibo,,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1761,Portuguese,Ruins,Repeated.,Wikipedia
+191,Fort São Lourenço Mozambique,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1695,Portuguese,Ruins,Repeated.,Wikipedia
+192,Fort São Marçal,,Mozambique,Maputo,Matola,-25.9667,32.4667,18th C,Portuguese,Ruins,Repeated.,Wikipedia
+193,Fort São Sebastião,,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1558,Portuguese,UNESCO,Repeated.,Wikipedia
+194,Fort São Tiago Maior,,Mozambique,Inhambane,Maxixe,-23.8667,35.35,18th C,Portuguese,Ruins,Repeated.,Wikipedia
+195,Kasteel de Goede Hoop,Castle of Good Hope,South Africa,Western Cape,Cape Town,-33.9258,18.4275,1666,Dutch,Museum,Repeated.,Wikipedia
+196,Fort de Goede Hoop,,Ghana,Western,Senya Beraku,5.3833,-0.4833,1704,Dutch,Ruins,Repeated.,Wikipedia
+197,São Jorge da Mina,,Ghana,Central,Elmina,5.0825,-1.3481,1482,Portuguese,UNESCO,Repeated.,Wikipedia
+198,Fort Anne,,Canada,Nova Scotia,Annapolis Royal,44.7417,-65.5183,1629,French/British,Museum,Star-shaped.,Wikipedia
+199,Fort Beauséjour,,Canada,New Brunswick,Aulac,45.8667,-64.2833,1751,French,Museum,Pentagonal.,Wikipedia
+200,Citadel of Quebec,Citadelle de Québec,Canada,Quebec,Quebec City,46.8072,-71.2075,1820,British,Active,Star citadel.,Wikipedia
+201,Fort George,Citadel Hill,Canada,Nova Scotia,Halifax,44.6475,-63.5806,1749,British,Museum,Star fort.,Wikipedia
+202,Fort George,,Canada,Ontario,Niagara-on-the-Lake,43.25,-79.0667,1796,British,Museum,Reconstruction.,Wikipedia
+203,Fort Mississauga,,Canada,Ontario,Niagara-on-the-Lake,43.2667,-79.0833,1814,British,Ruins,Star tower.,Wikipedia
+204,Fort Plaisance,,Canada,Newfoundland,Placentia,47.25,-53.9667,1662,French,Ruins,Bastions.,Wikipedia
+205,Fort Royal,,Canada,Newfoundland,Placentia,47.25,-53.9667,1687,French,Ruins,Hill bastion.,Wikipedia
+206,Fort Saint Louis,,Canada,Newfoundland,Placentia,47.25,-53.9667,1692,French,Ruins,Star site.,Wikipedia
+207,Fort William,,Canada,Newfoundland,St. John's,47.5667,-52.7,1698,British,Ruins,Bastion remnants.,Wikipedia
+208,Prince of Wales Fort,,Canada,Manitoba,Churchill,58.7972,-94.2136,1731,Hudson's Bay,Ruins,Star-shaped.,Wikipedia
+209,Castillo San Salvador de la Punta,,Cuba,Havana,Havana,23.1333,-82.35,1590,Spanish,Museum,Channel defense.,Wikipedia
+210,Castillo de los Tres Reyes Magos del Morro,,Cuba,Havana,Havana,23.15,-82.35,1589,Spanish,Museum,Lighthouse star.,Wikipedia
+211,Fortaleza de San Carlos de la Cabaña,,Cuba,Havana,Havana,23.15,-82.35,1774,Spanish,Museum,Largest in Americas.,Wikipedia
+212,Castillo de la Real Fuerza,,Cuba,Havana,Havana,23.1333,-82.35,1558,Spanish,Museum,Oldest star.,Wikipedia
+213,Castillo del Príncipe,,Cuba,Havana,Havana,23.1167,-82.4167,1767,Spanish,Prison,Hill bastion.,Wikipedia
+214,Castillo de San Severino,,Cuba,Matanzas,Matanzas,23.05,-81.5667,1693,Spanish,Museum,Slave route site.,Wikipedia
+215,Fort San Cristóbal,Castillo San Cristóbal,Puerto Rico,San Juan,San Juan,18.4667,-66.1167,1634,Spanish,UNESCO,Largest Spanish fort.,Wikipedia
+216,Castillo San Felipe del Morro,El Morro,Puerto Rico,San Juan,San Juan,18.4667,-66.1239,1539,Spanish,UNESCO,Promontory star.,Wikipedia
+217,Fort Conde de Mirasol,Fortín Conde de Mirasol,Puerto Rico,Vieques,Isabel Segunda,18.15,-65.4333,1845,Spanish,Museum,Last Spanish fort.,Wikipedia
+218,Fortín San Juan de la Cruz,,Puerto Rico,Toa Baja,Palo Seco,18.4667,-66.1667,1610,Spanish,Ruins,River mouth.,Wikipedia
+219,Fort Monroe,,USA,Virginia,Hampton,37.0036,-76.3075,1819,US,Museum,Hexagonal.,Wikipedia
+220,Fort Jay,,USA,New York,New York,40.6911,-74.0164,1794,US,Museum,Star island.,Wikipedia
+221,Fort Wood,,USA,New York,Liberty Island,40.6892,-74.0445,1808,US,Liberty base,11-point.,Wikipedia
+222,Fort Independence,,USA,Massachusetts,Boston,42.34,-71.0117,1834,US,Museum,Pentagonal.,Wikipedia
+223,Fort McHenry,,USA,Maryland,Baltimore,39.2633,-76.5797,1798,US,Museum,Anthem site.,Wikipedia
+224,Castillo de San Marcos,,USA,Florida,St. Augustine,29.8978,-81.3114,1672,Spanish,Museum,Coquina star.,Wikipedia
+225,Fort Prince of Wales,,Canada,Manitoba,Churchill,58.7972,-94.2136,1731,British,Ruins,Arctic star.,Wikipedia (Americas)
+226,Fort Barrancas,,USA,Florida,Pensacola,30.35,-87.3,1787,Spanish,Museum,Gulf defense.,Wikipedia
+227,Fort Beauséjour,,Canada,New Brunswick,Aulac,45.8667,-64.2833,1751,French,Museum,Repeated.,Wikipedia
+228,Fort Caroline,,USA,Florida,Jacksonville,30.3833,-81.5,1564,French,Reconstruction,Early star.,Wikipedia
+229,Fort Delgrès,,Guadeloupe (France),Basse-Terre,Basse-Terre,15.9833,-61.7167,1650,French,Museum,Resistance site.,Wikipedia
+230,Fort Desaix,,Martinique (France),Fort-de-France,Fort-de-France,14.6,-61.0667,1768,French,Active,Hill star.,Wikipedia
+231,Fort Diamant,,French Guiana,Rémire-Montjoly,Rémire-Montjoly,4.8833,-52.2667,1840,French,Ruins,Coastal.,Wikipedia
+232,Fort Erie,,Canada,Ontario,Fort Erie,42.9167,-79.0167,1764,British,Museum,War of 1812.,Wikipedia
+233,Fort Frederick,,USA,Maryland,Big Pool,39.6167,-78.0,1755,British,Park,French-Indian War.,Wikipedia
+234,Fort Gaines,,USA,Alabama,Dauphin Island,30.25,-88.0833,1821,US,Museum,Civil War.,Wikipedia
+235,Fort Jackson,,USA,Louisiana,Plaquemines,29.35,-89.45,1822,US,Ruins,Mississippi defense.,Wikipedia
+236,Fort Macomb,,USA,Louisiana,New Orleans,30.0667,-89.8,1822,US,Ruins,Lake Borgne.,Wikipedia
+237,Fort Macon,,USA,North Carolina,Atlantic Beach,34.7,-76.6833,1826,US,Park,Pentagonal.,Wikipedia
+238,Fort Mifflin,,USA,Pennsylvania,Philadelphia,39.8667,-75.2167,1771,British/US,Museum,Revolutionary.,Wikipedia
+239,Fort Morgan,,USA,Alabama,Gulf Shores,30.2333,-88.0167,1819,US,Museum,Mobile Bay.,Wikipedia
+240,Fort Pike,,USA,Louisiana,New Orleans,30.1667,-89.7333,1819,US,Ruins,Rigolets pass.,Wikipedia
+241,Fort Pulaski,,USA,Georgia,Savannah,32.0333,-80.9,1829,US,Museum,Brick star.,Wikipedia; Starforts.com
+242,Fort San Carlos,,USA,Florida,Fernandina Beach,30.6667,-81.4667,1816,Spanish,Museum,Amelia Island.,Wikipedia
+243,Fort Sumter,,USA,South Carolina,Charleston,32.75,-79.8667,1829,US,Museum,Civil War start.,Wikipedia
+244,Citadelle de Besançon,Citadel of Besançon,France,Franche-Comté,Besançon,47.2361,6.0269,1669-1688,Vauban,UNESCO/Museum,Massive star citadel; key UNESCO Vauban site.,UNESCO maps; Wikipedia
+245,La Citadelle dArras,Citadel of Arras,France,Hauts-de-France,Arras,50.2825,2.7589,1668-1670,Vauban,Museum,Hilltop bastion; UNESCO group.,UNESCO
+246,La Citadelle de Blaye,Citadel of Blaye,France,Nouvelle-Aquitaine,Blaye,45.1217,-0.6733,1685-1689,Vauban,UNESCO/Museum,Gironde estuary defense.,UNESCO
+247,LEnceinte de Briançon,Briançon fortifications,France,Provence-Alpes-Côte dAzur,Briançon,44.8958,6.6433,1692-1700,Vauban,UNESCO,Mountain forts + Asfeld bridge.,UNESCO
+248,La Place forte de Longwy,Longwy fortifications,France,Grand Est,Longwy,49.5167,5.7667,1679-1690,Vauban,UNESCO,Neuf-Brisach style; border town.,UNESCO
+249,La Place forte de Mont-Dauphin,Mont-Dauphin,France,Provence-Alpes-Côte dAzur,Mont-Dauphin,44.6667,6.6167,1693,Vauban,UNESCO,Alpine star; mountain battery.,UNESCO
+250,Saint-Martin-de-Ré,Citadel of Saint-Martin-de-Ré,France,Nouvelle-Aquitaine,Saint-Martin-de-Ré,46.2,-1.3667,1681,Vauban,UNESCO/Museum,Island citadel; prison history.,UNESCO
+251,Villefranche-de-Conflent,Villefranche fortifications,France,Occitanie,Villefranche-de-Conflent,42.5833,2.3667,1681,Vauban,UNESCO,Walled town + forts.,UNESCO
+252,Neuf-Brisach,Brisach,France,Grand Est,Neuf-Brisach,48.0178,7.5281,1698-1703,Vauban,UNESCO,Octagonal ideal star city.,UNESCO
+253,Fort de la Prée,La Prée,France,Nouvelle-Aquitaine,Île de Ré,46.2,-1.3667,1625,French,Ruins,Early star; Vauban influence.,Wikipedia
+254,Fort des Salettes,Salettes,France,Hautes-Alpes,Briançon,44.8833,6.65,1700,Vauban,Ruins,Mountain bastion.,UNESCO
+255,Fort des Trois-Têtes,Trois-Têtes,France,Hautes-Alpes,Briançon,44.8833,6.65,1724,Vauban,Museum,Large complex.,UNESCO
+256,Fort du Randouillet,Randouillet,France,Hautes-Alpes,Briançon,44.8833,6.65,1730s,Vauban,Ruins,Communication Y.,UNESCO
+257,Fort du Dauphin,Dauphin,France,Hautes-Alpes,Briançon,44.8833,6.65,1692,Vauban,Ruins,Asfeld bridge link.,UNESCO
+258,Citadelle de Lille,Citadel of Lille,France,Hauts-de-France,Lille,50.6333,3.0667,1667,Vauban,Active,Queen of Citadels.,Wikipedia
+259,Citadelle de Lille,,France,Hauts-de-France,Lille,50.6333,3.0667,1667,Vauban,Active,Repeated for UNESCO.,UNESCO
+260,Fort de l'Étoile,Étoile,France,Provence-Alpes-Côte dAzur,Sisteron,44.2,5.95,1590s,Vauban upgrades,Ruins,Hill star.,Wikipedia
+261,Fort Barraux,Barraux,France,Auvergne-Rhône-Alpes,Barraux,45.4167,5.9667,1598,Lesdiguières/Vauban,Museum,Alpine defense.,Wikipedia
+262,Fort de Joux,Château de Joux,France,Bourgogne-Franche-Comté,La Cluse-et-Mijoux,46.8667,6.3667,11th C (Vauban 1678),Vauban,Museum,Cliff bastions.,Wikipedia
+263,Fort de Douaumont,Douaumont,France,Grand Est,Verdun,49.3167,5.4667,1885,French,Ruins,WWI site; bastion style.,Wikipedia
+264,Fort de Vaux,Vaux,France,Grand Est,Verdun,49.3,5.4667,1880s,French,Ruins,Verdun complex.,Wikipedia
+265,Kastellet,Citadel of Copenhagen,Denmark,Capital,Copenhagen,55.6911,12.5953,1662,Dutch influence,Active,Iconic 5-point star.,Wikipedia
+266,Frederikstad Fortress,,Norway,Østfold,Fredrikstad,59.2167,10.95,1660,Dutch,Museum,Star town layout.,Wikipedia
+267,Kongsvinger Fortress,,Norway,Innlandet,Kongsvinger,60.2,12.0,1682,Norwegian,Museum,Hilltop bastions.,Wikipedia
+268,Kristiansten Fortress,,Norway,Trøndelag,Trondheim,63.4333,10.4167,1681,Norwegian,Museum,Post-fire defense.,Wikipedia
+269,Vardøhus Fortress,,Norway,Finnmark,Vardø,70.3667,31.0833,1734,Norwegian,Museum,Northernmost.,Wikipedia
+270,Daugavpils Fortress,Dinaburg,Latvia,Latgale,Daugavpils,55.8833,26.5,1810,Russian,Museum,Large bastion complex.,Wikipedia
+271,Riga Bastions,,Latvia,Riga,Riga,56.95,24.1167,17th C,Swedish,Park,Outline remnants.,Wikipedia
+272,Komárno Star Fort,,Slovakia,Nitra,Komárno,47.7667,18.1167,16th-19th C,Habsburg,Museum,Danube star.,Wikipedia
+273,Petersberg Citadel,,Germany,Thuringia,Erfurt,50.9833,11.0333,1665,Mainz,Museum,Baroque star.,Wikipedia
+274,Mainz Citadel,Zitadelle Mainz,Germany,Rhineland-Palatinate,Mainz,50.0,8.2667,1620,Mainz,Museum,Rhine defense.,Wikipedia
+275,Fort Belgica,,Indonesia,Maluku,Banda Neira,-4.5167,129.8833,1611,Dutch,Museum,Hilltop 5-point star.,Wikipedia; Starforts.com
+276,Fort Oranje,,Indonesia,Maluku,Ternate,-0.7833,127.3833,1607,Dutch,Ruins,Volcanic island bastion.,Wikipedia
+277,Fort Marlborough,,Indonesia,Bengkulu,Bengkulu,-3.7833,-102.25,1714,British,Museum,British East India star.,Wikipedia
+278,Fort Cornwallis,,Malaysia,Penang,George Town,5.4167,100.3333,1786,British,Museum,Largest in Malaysia.,Wikipedia
+279,Gory?kaku,,Japan,Hokkaido,Hakodate,41.8,140.75,1855,Tokugawa,Park,Pentagonal Western-style star.,Wikipedia
+280,Tatsuoka Castle,,Japan,Nagano,Saku,36.2,138.4833,1864,Tokugawa,Ruins,Late Edo star castle.,Wikipedia
+281,Shiry?kaku,,Japan,Hokkaido,Hakodate,41.8,140.75,1860s,Tokugawa,Ruins,Quadrilateral bastion.,Wikipedia
+282,Manjarabad Fort,,India,Karnataka,Sakleshpur,12.9667,75.75,1792,Tipu Sultan,Ruins,Octagonal star.,Wikipedia
+283,Fort St. George,White Town,India,Tamil Nadu,Chennai,13.0833,80.2833,1639,British,Active,Early British bastion.,Wikipedia
+284,Fort William,,India,West Bengal,Kolkata,22.5667,88.35,1696,British,Active,Massive star complex.,Wikipedia
+285,Fortaleza de Nossa Senhora da Graça,Elvas Star Fort,Portugal,Alentejo,Elvas,38.8833,-7.1667,1763,Portuguese,UNESCO/Museum,Hilltop star; resonance candidate.,Wikipedia; UNESCO
+286,Forte de São João Baptista,Ibo Island,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Ruins,Island bastion.,Wikipedia
+287,Forte de Santo António,Ibo,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1791,Portuguese,Ruins,Twin fort.,Wikipedia
+288,Forte de São José,Ibo,Mozambique,Cabo Delgado,Ibo,-12.3333,40.5833,1761,Portuguese,Ruins,Small star.,Wikipedia
+289,Forte de São Lourenço,Ilha de Moçambique,Mozambique,Sofala,Ilha de Moçambique,-15.0333,40.7333,1695,Portuguese,Ruins,Addition to main.,Wikipedia
+290,Fortaleza de São Miguel,Luanda,Angola,Luanda,Luanda,-8.8083,13.2233,1576,Portuguese,Museum,Early colonial star.,Wikipedia
+291,Fortaleza de São Pedro da Barra,Luanda,Angola,Luanda,Luanda,-8.8,13.2333,1703,Portuguese,Ruins,Harbor bastion.,Wikipedia
+292,Castle of Good Hope,,South Africa,Western Cape,Cape Town,-33.9258,18.4275,1666,Dutch,Museum,Pentagonal star.,Wikipedia
+293,Castillo de San Felipe del Morro,El Morro,Puerto Rico,San Juan,San Juan,18.4672,-66.1239,1539-1787,Spanish,UNESCO,Promontory bastions.,Wikipedia
+294,Castillo San Cristóbal,,Puerto Rico,San Juan,San Juan,18.4667,-66.1167,1634,Spanish,UNESCO,Largest Spanish.,Wikipedia
+295,Fort Anne,,Canada,Nova Scotia,Annapolis Royal,44.7417,-65.5183,1629,French/British,Museum,Star-shaped.,Wikipedia
+296,Fort Beauséjour,,Canada,New Brunswick,Aulac,45.8667,-64.2833,1751,French,Museum,Pentagonal.,Wikipedia
+297,Fort George,Citadel Hill,Canada,Nova Scotia,Halifax,44.6475,-63.5806,1749,British,Museum,Star fort.,Wikipedia
+298,Fort Prince of Wales,,Canada,Manitoba,Churchill,58.7972,-94.2136,1731,Hudson's Bay,Ruins,Arctic star.,Wikipedia
+299,Fort McHenry,,USA,Maryland,Baltimore,39.2633,-76.5797,1798,US,Museum,War of 1812.,Wikipedia
+300,Fort Pulaski,,USA,Georgia,Savannah,32.0333,-80.9,1829,US,Museum,Brick bastion.,Wikipedia
+301,Petersberg Citadel,Zitadelle Petersberg,Germany,Thuringia,Erfurt,50.9833,11.0333,1665,Electorate of Mainz,Museum,Baroque star citadel; UNESCO tentative links.,Wikipedia; Starforts.com
+302,Mainz Citadel,Zitadelle Mainz,Germany,Rhineland-Palatinate,Mainz,50.0,8.2667,1620,Electorate of Mainz,Museum,Rhine defense bastions.,Wikipedia
+303,Festung Ehrenbreitstein,Ehrenbreitstein Fortress,Germany,Rhineland-Palatinate,Koblenz,50.3667,7.6167,1817-1828,Prussian,Museum,Massive star complex; UNESCO Rhine.,Wikipedia
+304,Festung Koblenz,Koblenz Fortress,Germany,Rhineland-Palatinate,Koblenz,50.35,7.6,19th C,Prussian,Ruins/Museum,Part of Koblenz ring.,Wikipedia
+305,Festung Ulm,Ulm Fortress,Germany,Baden-Württemberg,Ulm,48.4,9.9833,1842-1859,Württemberg,Ruins,Large polygonal bastions.,Wikipedia
+306,Festung Ingolstadt,Ingolstadt Fortress,Germany,Bavaria,Ingolstadt,48.7667,11.4333,1539-1860s,Bavarian,Museum,Extensive star ring.,Wikipedia
+307,Festung Germersheim,Germersheim Fortress,Germany,Rhineland-Palatinate,Germersheim,49.2167,8.3667,1834-1852,Bavarian,Ruins,Rhine bastions.,Wikipedia
+308,Festung Landau,Landau Fortress,Germany,Rhineland-Palatinate,Landau,49.2,8.1167,1688-1690,French (Vauban style),Ruins,Border star.,Wikipedia
+309,Festung Rastatt,Rastatt Fortress,Germany,Baden-Württemberg,Rastatt,48.85,8.2,1689-1693,French,Museum,Baroque bastions.,Wikipedia
+310,Zitadelle Spandau,Spandau Citadel,Germany,Berlin,Berlin,52.5333,13.2,1559-1594,Brandenburg,Museum,Renaissance star.,Wikipedia
+311,Festung Küstrin,Kostrzyn Fortress,Poland,Lubusz,Kostrzyn nad Odr?,52.5833,14.65,1535-1553,Brandenburg,Ruins,Oder river star.,Wikipedia
+312,Festung Silberberg,Srebrna Góra Fortress,Poland,Lower Silesia,Srebrna Góra,50.5833,16.65,1765-1777,Prussian,Museum,Mountain bastion.,Wikipedia
+313,Twierdza K?odzko,K?odzko Fortress,Poland,Lower Silesia,K?odzko,50.4333,16.65,1660s-18th C,Prussian,Museum,Hilltop star.,Wikipedia
+314,Twierdza Nysa,Nysa Fortress,Poland,Opole,Nysa,50.4667,17.3333,1663-1669,Habsburg/Prussian,Ruins,Large bastion ring.,Wikipedia
+315,Twierdza Modlin,Modlin Fortress,Poland,Masovian,Nowy Dwór Mazowiecki,52.45,20.6833,1806-1812,French/Napoleonic,Museum,Vistula star.,Wikipedia
+316,Twierdza Przemy?l,Przemy?l Fortress,Poland,Subcarpathian,Przemy?l,49.7833,22.7667,19th C,Austro-Hungarian,Ruins/Museum,Ring of forts.,Wikipedia
+317,Twierdza Boyen,Boyen Fortress,Poland,Warmian-Masurian,Gi?ycko,54.0333,21.7667,1844-1856,Prussian,Museum,Masurian lakes star.,Wikipedia
+318,Twierdza Pozna?,Pozna? Fortress,Poland,Greater Poland,Pozna?,52.4,16.9333,1828-1842,Prussian,Ruins,Warta river bastions.,Wikipedia
+319,Twierdza Zegrze,Zegrze Fortress,Poland,Masovian,Zegrze,52.4667,21.0333,1883-1894,Russian,Ruins,Bug river defense.,Wikipedia
+320,Fredrikstad Fortress,,Norway,Østfold,Fredrikstad,59.2167,10.95,1660,Dutch influence,Museum,Star town.,Wikipedia
+321,Fredriksvern,,Norway,Vestfold,Stavern,59.0,10.0333,1750,Danish-Norwegian,Museum,Naval star base.,Wikipedia
+322,Kongsvinger Fortress,,Norway,Innlandet,Kongsvinger,60.2,12.0,1682,Norwegian,Museum,Hilltop bastions.,Wikipedia
+323,Kristiansten Fortress,,Norway,Trøndelag,Trondheim,63.4333,10.4167,1681,Norwegian,Museum,Post-fire star.,Wikipedia
+324,Vardøhus Fortress,,Norway,Finnmark,Vardø,70.3667,31.0833,1734,Norwegian,Museum,Northernmost star.,Wikipedia
+325,Akershus Fortress,Akershus Festning,Norway,Oslo,Oslo,59.9069,10.7364,1299 (bastions 17th C),Norwegian,Museum,Renaissance upgrades.,Wikipedia
+326,Bohus Fortress,Bohus fästning,Sweden,Västra Götaland,Kungälv,57.8667,11.9833,1308 (bastions 17th C),Norwegian/Swedish,Ruins,Göta river star.,Wikipedia
+327,Varberg Fortress,Varbergs fästning,Sweden,Halland,Varberg,57.1,12.25,13th C (bastions 17th C),Danish/Swedish,Museum,Coastal bastions.,Wikipedia
+328,Karlskrona Naval Base,Karlskrona örlogsbas,Sweden,Blekinge,Karlskrona,56.1667,15.5833,1680,Swedish,UNESCO,Naval star defenses.,Wikipedia
+329,Landskrona Citadel,,Sweden,Skåne,Landskrona,55.8833,12.85,1549,Danish,Museum,Star elements.,Wikipedia
+330,Tatsuoka Castle,,Japan,Nagano,Saku,36.2,138.4833,1864,Tokugawa,Ruins,Late Edo star castle.,Wikipedia
+331,Shiry?kaku,,Japan,Hokkaido,Hakodate,41.8,140.75,1860s,Tokugawa,Ruins,Quadrilateral bastion.,Wikipedia
+332,Hekirichi Bastion Fort,,Japan,Hokkaido,Hokuto,41.8167,140.65,1850s,Tokugawa,Ruins,Bastion site.,Wikipedia
+333,Benten Daiba,,Japan,Tokyo,Tokyo Bay,35.6333,139.7667,1853,Tokugawa,Ruins,Sea battery star.,Wikipedia
+334,Fort St. George,,India,Tamil Nadu,Chennai,13.0833,80.2833,1639,British,Active,Early bastion.,Wikipedia
+335,Fort William,,India,West Bengal,Kolkata,22.5667,88.35,1696,British,Active,Massive star.,Wikipedia
+336,Bihu Loukon,,India,Manipur,Imphal,24.8167,93.95,Ancient,Local,Ruins,Star-shaped.,Wikipedia
+337,Cabo de Rama Fort,,India,Goa,Cabo de Rama,15.0833,74.05,Ancient,Various,Ruins,Coastal bastions.,Wikipedia
+338,Corjuem Fort,,India,Goa,Corjuem,15.6667,73.9,1705,Portuguese,Ruins,River island star.,Wikipedia
+339,Colombo Fort,,Sri Lanka,Western,Colombo,6.9333,79.8333,1518,Portuguese,Ruins,Colonial bastions.,Wikipedia
+340,Forte de São João Batista do Brum,,Brazil,Pernambuco,Recife,-8.05,-34.8833,1629,Portuguese,Museum,Bastions.,Wikipedia
+341,Forte do Presépio,,Brazil,Pará,Belém,-1.45,-48.5,1616,Portuguese,Museum,Amazon star.,Wikipedia
+342,Forte Príncipe da Beira,,Brazil,Rondônia,Costa Marques,-12.4167,-64.4167,1776,Portuguese,Ruins,Remote star.,Wikipedia
+343,Fortaleza de Nossa Senhora da Assunção,,Brazil,Ceará,Fortaleza,-3.7167,-38.5,1649,Dutch/Portuguese,Museum,Two bastions.,Wikipedia
+344,Forte de Nossa Senhora dos Remédios,,Brazil,Pernambuco,Fernando de Noronha,-3.8333,-32.4167,1737,Portuguese,Ruins,Island bastion.,Wikipedia
+345,Forte de Santo Inácio de Tamandaré,,Brazil,Pernambuco,Tamandaré,-8.75,-35.1,1690,Portuguese,Ruins,Coastal star.,Wikipedia
+346,Forte do Barbalho,,Brazil,Bahia,Salvador,-12.9667,-38.5167,1600,Portuguese,Museum,Salvador defense.,Wikipedia
+347,Forte de São Lourenço,,Brazil,Bahia,Itaparica,-12.8833,-38.6833,1710,Portuguese,Ruins,Island fort.,Wikipedia
+348,Fortaleza de Santa Cruz da Barra,,Brazil,Rio de Janeiro,Niterói,-22.8833,-43.1167,1578,Portuguese,Museum,Guanabara Bay.,Wikipedia
+349,Fortaleza de Santo Antônio de Ratones,,Brazil,Santa Catarina,Florianópolis,-27.5833,-48.5667,1740,Portuguese,Ruins,Island star.,Wikipedia
+350,Festung Ehrenbreitstein,Ehrenbreitstein,Germany,Rhineland-Palatinate,Koblenz,50.3667,7.6167,1817-1828,Prussian,Museum,Massive star; Rhine UNESCO peripheral.,Fortress Earth; regional lists
+351,Festung Koblenz,Koblenz Ring,Germany,Rhineland-Palatinate,Koblenz,50.35,7.6,19th C,Prussian,Ruins,Lesser-known ring bastions.,Regional German lists
+352,Festung Ulm,Ulm Fortress,Germany,Baden-Württemberg,Ulm,48.4,9.9833,1842-1859,Württemberg,Ruins,Polygonal star ring.,Wikipedia regional; Starforts extensions
+353,Festung Ingolstadt,Ingolstadt,Germany,Bavaria,Ingolstadt,48.7667,11.4333,1539-1860s,Bavarian,Museum,Extensive lesser-known star.,German fort lists
+354,Festung Germersheim,Germersheim,Germany,Rhineland-Palatinate,Germersheim,49.2167,8.3667,1834-1852,Bavarian,Ruins,Rhine lesser bastions.,Regional
+355,Festung Landau,Landau,Germany,Rhineland-Palatinate,Landau,49.2,8.1167,1688-1690,French style,Ruins,Border star ruins.,German
+356,Festung Rastatt,Rastatt,Germany,Baden-Württemberg,Rastatt,48.85,8.2,1689-1693,French,Museum,Baroque lesser-known.,Regional
+357,Zitadelle Spandau,Spandau,Germany,Berlin,Berlin,52.5333,13.2,1559-1594,Brandenburg,Museum,Renaissance star.,German lists
+358,Festung Küstrin,Kostrzyn,Poland,Lubusz,Kostrzyn nad Odr?,52.5833,14.65,1535-1553,Brandenburg,Ruins,Oder river lesser star.,Polish lists
+359,Festung Silberberg,Srebrna Góra,Poland,Lower Silesia,Srebrna Góra,50.5833,16.65,1765-1777,Prussian,Museum,Mountain bastion ruins.,Polish
+360,Twierdza K?odzko,K?odzko,Poland,Lower Silesia,K?odzko,50.4333,16.65,1660s-18th C,Prussian,Museum,Hilltop lesser star.,Polish
+361,Twierdza Nysa,Nysa,Poland,Opole,Nysa,50.4667,17.3333,1663-1669,Habsburg/Prussian,Ruins,Large ring lesser-known.,Polish
+362,Twierdza Modlin,Modlin,Poland,Masovian,Nowy Dwór Mazowiecki,52.45,20.6833,1806-1812,Napoleonic,Museum,Vistula star ruins.,Polish
+363,Twierdza Przemy?l,Przemy?l Ring,Poland,Subcarpathian,Przemy?l,49.7833,22.7667,19th C,Austro-Hungarian,Ruins,Ring of lesser forts.,Polish
+364,Twierdza Boyen,Boyen,Poland,Warmian-Masurian,Gi?ycko,54.0333,21.7667,1844-1856,Prussian,Museum,Lakes star.,Polish
+365,Twierdza Pozna?,Pozna?,Poland,Greater Poland,Pozna?,52.4,16.9333,1828-1842,Prussian,Ruins,Warta lesser bastions.,Polish
+366,Twierdza Zegrze,Zegrze,Poland,Masovian,Zegrze,52.4667,21.0333,1883-1894,Russian,Ruins,Bug river lesser.,Polish
+367,Fredriksvern,,Norway,Vestfold,Stavern,59.0,10.0333,1750,Danish-Norwegian,Museum,Naval lesser star.,Norwegian lists
+368,Akershus Fortress,Akershus,Norway,Oslo,Oslo,59.9069,10.7364,1299 (bastions 17th C),Norwegian,Museum,Renaissance upgrades.,Norwegian
+369,Bohus Fortress,Bohus fästning,Sweden,Västra Götaland,Kungälv,57.8667,11.9833,1308 (bastions 17th C),Swedish,Ruins,Göta lesser star.,Swedish
+370,Varberg Fortress,Varbergs fästning,Sweden,Halland,Varberg,57.1,12.25,13th C (bastions 17th C),Swedish,Museum,Coastal lesser.,Swedish
+371,Karlsborg Fortress,Karlsborg,Sweden,Västra Götaland,Karlsborg,58.5167,14.5167,1819-1900,Swedish,Museum,Central lesser star.,Swedish
+372,Daugavgr?va Fortress,,Latvia,Riga,Riga,57.05,24.0333,1600,Swedish,Ruins,River mouth lesser.,Baltic lists
+373,Daugavpils Fortress,Dinaburg,Latvia,Latgale,Daugavpils,55.8833,26.5,1810,Russian,Museum,Large lesser complex.,Latvian
+374,Benten Daiba,,Japan,Tokyo,Tokyo Bay,35.6333,139.7667,1853,Tokugawa,Ruins,Sea battery lesser star.,Japanese lists
+375,Cabo de Rama Fort,,India,Goa,Cabo de Rama,15.0833,74.05,Ancient,Various,Ruins,Coastal lesser bastions.,Indian
+376,Corjuem Fort,,India,Goa,Corjuem,15.6667,73.9,1705,Portuguese,Ruins,River island lesser star.,Indian
+377,Colombo Fort,,Sri Lanka,Western,Colombo,6.9333,79.8333,1518,Portuguese,Ruins,Colonial lesser bastions.,Sri Lankan
+378,Fort Marlborough,,Indonesia,Bengkulu,Bengkulu,-3.7833,-102.25,1714,British,Museum,Lesser British star.,Indonesian
+379,Fort Nassau,,Indonesia,Maluku,Banda,-4.5167,129.8833,1609,Dutch,Ruins,Spice island lesser.,Indonesian
+380,Fort Revenge,,Indonesia,Maluku,Banda,-4.5167,129.8833,1616,English/Dutch,Ruins,Rivalry lesser bastion.,Indonesian
+381,Fort Hollandia,,Indonesia,Maluku,Banda,-4.5167,129.8833,1624,Dutch,Ruins,Banda series lesser.,Indonesian
+382,Fort Victoria,,Indonesia,Maluku,Ambon,-3.7,128.1833,1775,Dutch,Ruins,Island lesser bastion.,Indonesian
+383,Fort Amsterdam,,Indonesia,Maluku,Ambon,-3.7,128.1833,1637,Dutch,Ruins,Nearby lesser Victoria.,Indonesian
+384,Forte de São João Batista do Brum,,Brazil,Pernambuco,Recife,-8.05,-34.8833,1629,Portuguese,Museum,Lesser bastions.,Brazilian
+385,Forte do Presépio,,Brazil,Pará,Belém,-1.45,-48.5,1616,Portuguese,Museum,Amazon lesser star.,Brazilian
+386,Forte Príncipe da Beira,,Brazil,Rondônia,Costa Marques,-12.4167,-64.4167,1776,Portuguese,Ruins,Remote lesser star.,Brazilian
+387,Fortaleza de Nossa Senhora da Assunção,,Brazil,Ceará,Fortaleza,-3.7167,-38.5,1649,Dutch/Portuguese,Museum,Two lesser bastions.,Brazilian
+388,Forte de Nossa Senhora dos Remédios,,Brazil,Pernambuco,Fernando de Noronha,-3.8333,-32.4167,1737,Portuguese,Ruins,Island lesser bastion.,Brazilian
+389,Forte de Santo Inácio de Tamandaré,,Brazil,Pernambuco,Tamandaré,-8.75,-35.1,1690,Portuguese,Ruins,Coastal lesser star.,Brazilian
+390,Forte do Barbalho,,Brazil,Bahia,Salvador,-12.9667,-38.5167,1600,Portuguese,Museum,Salvador lesser defense.,Brazilian
+391,Forte de São Lourenço,,Brazil,Bahia,Itaparica,-12.8833,-38.6833,1710,Portuguese,Ruins,Island lesser fort.,Brazilian
+392,Fortaleza de Santa Cruz da Barra,,Brazil,Rio de Janeiro,Niterói,-22.8833,-43.1167,1578,Portuguese,Museum,Guanabara lesser.,Brazilian
+393,Fortaleza de Santo Antônio de Ratones,,Brazil,Santa Catarina,Florianópolis,-27.5833,-48.5667,1740,Portuguese,Ruins,Island lesser star.,Brazilian
+394,Festung Wesel,Wesel Citadel,Germany,North Rhine-Westphalia,Wesel,51.6667,6.6167,16851702,Dutch/Prussian,Ruins/Museum,Rhine river star; lesser-known Prussian ring,German regional forts
+395,Festung Minden,Minden Fortress,Germany,North Rhine-Westphalia,Minden,52.2833,8.9167,15291860s,Various (Prussian),Ruins/Park,Weser river bastions; partial outline remains,Regional lists
+396,Festung Saarlouis,Saarlouis Fortress,Germany,Saarland,Saarlouis,49.3167,6.75,16801683,Vauban (French),Ruins/Park,Octagonal star town remnants,UNESCO Vauban extensions
+397,Zitadelle Jülich,Jülich Citadel,Germany,North Rhine-Westphalia,Jülich,50.9167,6.3667,15471559,Renaissance Italian,Museum,Early Renaissance star; museum focus,German heritage
+398,Festung Luxembourg (Pfaffenthal),Pfaffenthal section,Luxembourg,Luxembourg,Luxembourg City,49.6167,6.1333,17th19th C,Various,Ruins/Museum,Lesser-known valley bastions,Luxembourg fort lists
+399,Twierdza Zamo??,Zamo?? Fortress,Poland,Lublin,Zamo??,50.7167,23.25,15781648,Jan Zamoyski / Italian,UNESCO/Museum,Renaissance ideal star town (lesser bastions),Polish UNESCO
+400,Twierdza Kamieniec Podolski,Kamieniec Fortress,Ukraine,Khmelnytskyi,Kamianets-Podilskyi,48.6833,26.5667,11th18th C,Polish / Ottoman,Museum,River canyon star; multi-era bastions,Ukrainian heritage
+401,Twierdza Chocim,Khotyn Fortress,Ukraine,Chernivtsi,Khotyn,48.5167,26.4833,9th18th C,Genoese / Polish / Ottoman,Museum,Dniester river massive star,Ukrainian lists
+402,Twierdza Ostroh,Ostroh Castle-Fort,Ukraine,Rivne,Ostroh,50.3333,26.5167,14th17th C,Polish-Lithuanian,Ruins/Museum,Lesser-known bastion additions,Regional Ukrainian
+403,Twierdza Dubno,Dubno Fortress,Ukraine,Rivne,Dubno,50.4,25.75,15th18th C,Polish,Ruins,Ikva river star remnants,Ukrainian
+404,Fort Tiracol,Tiracol Fort,India,Goa,Tiracol,15.9333,73.6667,16th C,Sawantwadi / Portuguese,Ruins,Coastal hilltop lesser star,Indian regional
+405,Fort Chapora,Chapora Fort,India,Goa,Vagator,15.6,73.7333,1612 / 1717,Adil Shah / Portuguese,Ruins,Headland bastions; scenic remnants,Indian heritage
+406,Fort Sinquerim,Candolim Fort,India,Goa,Candolim,15.5,73.7667,1612,Portuguese,Ruins,Aguada extension lesser bastion,Goa lists
+407,Fort Gaspar Dias,Gaspar Dias,India,Goa,Panaji,15.5,73.8333,16th C,Portuguese,Ruins,Mandovi river lesser defense,Goa regional
+408,Fort Mormugao,Mormugao Fort,India,Goa,Vasco da Gama,15.4,73.8,1624,Portuguese,Ruins,Harbor lesser bastions,Indian
+409,Fort Anjediva,Anjadiv Island Fort,India,Karnataka,Karwar,14.7667,74.1167,1505 / 1760,Portuguese / Maratha,Ruins,Island star remnants,Karnataka lists
+410,Fort Sadashivgad,Sadashivgad,India,Karnataka,Karwar,14.8167,74.1333,16th C,Maratha,Ruins,Kali river hill bastion,Karnataka
+411,Fort Devagad,Devagad Fort,India,Maharashtra,Ratnagiri,16.9833,73.3167,16th C,Maratha,Ruins,Coastal lesser star,Maharashtra
+412,Fort Ratnagiri,Bhagwati Fort,India,Maharashtra,Ratnagiri,16.9833,73.3,16th C,Maratha,Ruins,Hilltop bastions,Maharashtra
+413,Fort Viziadurg,Vijaydurg,India,Maharashtra,Viziadurg,16.5667,73.5667,12th C / 16th C,Maratha / Siddi,Ruins,Arabian Sea star,Maharashtra
+414,Fort São Filipe de Benguela,Benguela Fort,Angola,Benguela,Benguela,-12.5833,13.4,1617,Portuguese,Museum,Coastal lesser bastion,Angolan heritage
+415,Fort São Francisco do Penedo,,Angola,Namibe,Namibe,-15.2,12.15,1645,Portuguese,Ruins,Desert coastal star,Angolan
+416,Fort Quicombo,,Angola,Benguela,Quicombo,-12.3667,13.7833,17th C,Portuguese,Ruins,Small lesser bastion,Angolan
+417,Fort São José de Encoje,,Angola,Zaire,Encoje,-6.2667,14.25,18th C,Portuguese,Ruins,Northern inland lesser,Angolan
+418,Fort Santo António de Zaire,,Angola,Zaire,Soyo,-6.1167,12.3667,17th C,Portuguese,Ruins,Congo river mouth,Angolan
+419,Fortaleza de São José de Mossâmedes,Mossâmedes Fort,Angola,Namibe,Namibe,-15.2,12.15,1840s,Portuguese,Ruins,Desert outpost lesser star,Angolan
+420,Fortaleza de São Miguel de Ambriz,Ambriz Fort,Angola,Bengo,Ambriz,-7.85,13.1167,19th C,Portuguese,Ruins,Coastal lesser bastion,Angolan
+421,Fort São João Baptista de Ajudá,Fort of Ouidah,Benin,Ouidah,Ouidah,6.3667,-2.0833,1721,Portuguese,Museum,Slave trade lesser fort,Benin heritage
+422,Fort William,Fort William,Canada,Newfoundland,St. John's,47.5667,-52.7,1698,British,Ruins,Signal Hill lesser bastions,Canadian
+423,Fort Amherst,,Canada,Newfoundland,St. John's,47.5667,-52.6833,1777,British,Ruins,Harbor entrance lesser,Canadian
