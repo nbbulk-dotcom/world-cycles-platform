@@ -1,0 +1,216 @@
+ID,Name,Country,Latitude,Longitude,earthResonance,spaceResonance,compositeResonance,earthSpaceCoupling,tectonicZone,isDeepSubduction
+1,Citadel of Alessandria,Italy,44.9203,8.6064,0.4806,0.1656,0.3231,0.0796,MEDITERRANEAN_ALPINE,False
+2,Alba Carolina Citadel,Romania,46.075,23.5708,0.4865,0.1628,0.3246,0.0792,MEDITERRANEAN_ALPINE,False
+3,Fort Bourtange,Netherlands,53.0067,7.1922,0.4492,0.1798,0.3145,0.0808,,False
+4,Naarden,Netherlands,52.295,5.16,0.4501,0.1791,0.3146,0.0806,,False
+5,Palmanova,Italy,45.9056,13.31,0.4854,0.1657,0.3256,0.0804,MEDITERRANEAN_ALPINE,False
+6,Fortress of Luxembourg,Luxembourg,49.6167,6.1333,0.4784,0.1742,0.3263,0.0833,MEDITERRANEAN_ALPINE,False
+7,Suomenlinna,Finland,60.1472,25.0,0.4429,0.1887,0.3158,0.0836,,False
+8,Kronborg Castle,Denmark,56.0389,12.6214,0.446,0.1838,0.3149,0.082,,False
+9,Citadel Hill,Canada,44.6475,-63.5806,0.4777,0.2239,0.3508,0.107,,False
+10,Landskrona Citadel,Sweden,55.8833,12.85,0.4461,0.1835,0.3148,0.0819,,False
+11,Star Fort Matara,Sri Lanka,5.9486,80.5469,0.4688,0.1042,0.2865,0.0488,,False
+12,Jaffna Fort,Sri Lanka,9.6625,80.0075,0.4684,0.1024,0.2854,0.048,,False
+13,Galle Fort,Sri Lanka,6.03,80.2167,0.4686,0.104,0.2863,0.0487,,False
+14,Batavia Castle,Indonesia,-6.1275,106.8106,0.5227,0.1204,0.3216,0.0629,RING_OF_FIRE,True
+15,Fort Rotterdam,Indonesia,-5.1333,119.4056,0.5264,0.1263,0.3263,0.0665,RING_OF_FIRE,True
+16,Manjarabad Fort,India,12.9667,75.75,0.4658,0.1036,0.2847,0.0483,,False
+17,Aguada Fort,India,15.4922,73.7725,0.4644,0.1056,0.285,0.049,,False
+18,Star Fort Jhansi,India,25.4583,78.5792,0.4923,0.1157,0.304,0.057,HIMALAYAN,False
+19,Chaul Fort,India,18.5333,72.9167,0.4633,0.108,0.2857,0.05,,False
+20,Castle of Good Hope,South Africa,-33.9258,18.4275,0.4624,0.1619,0.3121,0.0749,,False
+21,Fort Jesus,Kenya,-4.0625,39.6797,0.4965,0.1252,0.3109,0.0622,EAST_AFRICAN_RIFT,False
+22,Elmina Castle,Ghana,5.0825,-1.3481,0.473,0.1463,0.3096,0.0692,,False
+23,Fort São Sebastião,Mozambique,-15.0333,40.7333,0.5013,0.1291,0.3152,0.0647,EAST_AFRICAN_RIFT,False
+24,Fort São Caetano,Angola,-8.8,13.2333,0.4788,0.1411,0.31,0.0676,,False
+25,Fort Patience,Ghana,5.2833,-0.7333,0.4733,0.146,0.3096,0.0691,,False
+26,Fort Good Hope,Ghana,5.3833,-0.4833,0.4734,0.1458,0.3096,0.069,,False
+27,Fort São Miguel,Angola,-8.8083,13.2233,0.4788,0.1411,0.31,0.0676,,False
+28,Fort Metal Cross,Ghana,4.8,-1.95,0.4727,0.1466,0.3096,0.0693,,False
+29,Fort Monroe,USA,37.0036,-76.3075,0.4845,0.2355,0.36,0.1141,,False
+30,Fort Jay,USA,40.6911,-74.0164,0.4823,0.2333,0.3578,0.1125,,False
+31,Fort Wood,USA,40.6892,-74.0445,0.4823,0.2334,0.3579,0.1126,,False
+32,Castillo San Felipe del Morro,Puerto Rico,18.4672,-66.1239,0.4961,0.233,0.3645,0.1156,,False
+33,Citadel of Quebec,Canada,46.8072,-71.2075,0.4785,0.2311,0.3548,0.1106,,False
+34,Fort Independence,USA,42.34,-71.0117,0.4809,0.2307,0.3558,0.1109,,False
+35,Fort McHenry,USA,39.2633,-76.5797,0.4834,0.2355,0.3594,0.1138,,False
+36,Castillo de San Marcos,USA,29.8978,-81.3114,0.488,0.2415,0.3648,0.1179,,False
+37,Fort Prince of Wales,Canada,58.7972,-94.2136,0.5184,0.2401,0.3792,0.1245,RING_OF_FIRE,False
+38,Fort Denison,Australia,-33.8547,151.2258,0.4855,0.1574,0.3215,0.0764,RING_OF_FIRE,False
+39,Fort Glanville,Australia,-34.8461,138.4847,0.4884,0.1547,0.3216,0.0756,RING_OF_FIRE,False
+40,Fort Jervois,New Zealand,-43.6036,172.7417,0.4812,0.1882,0.3347,0.0906,RING_OF_FIRE,False
+41,Fort de Bregille,France,47.2333,6.0333,0.4798,0.1702,0.325,0.0817,MEDITERRANEAN_ALPINE,False
+42,Fort de Chaudanne,France,47.24,6.0167,0.4798,0.1703,0.3251,0.0817,MEDITERRANEAN_ALPINE,False
+43,Fort de La Hougue,France,49.5833,-1.2667,0.48,0.1764,0.3282,0.0847,MEDITERRANEAN_ALPINE,False
+44,Citadelle d'Entrevaux,France,44.0,6.8167,0.4816,0.1647,0.3231,0.0793,MEDITERRANEAN_ALPINE,False
+45,Fort de Sainte-Adresse,France,49.5,0.0833,0.4798,0.1759,0.3278,0.0844,MEDITERRANEAN_ALPINE,False
+46,Fort de Tourneville,France,49.5,0.1167,0.4798,0.1759,0.3278,0.0844,MEDITERRANEAN_ALPINE,False
+47,Fort de la Pree,France,46.2,-1.3667,0.4819,0.171,0.3265,0.0824,MEDITERRANEAN_ALPINE,False
+48,Fort des Salettes,France,44.8833,6.65,0.4811,0.1662,0.3236,0.08,MEDITERRANEAN_ALPINE,False
+49,The Fortifications of Toulon,France,43.1167,5.9333,0.4823,0.1636,0.323,0.0789,MEDITERRANEAN_ALPINE,False
+50,Fort Vallières,France,51.0333,2.3833,0.4514,0.1778,0.3146,0.0803,,False
+51,Citadelle Vauban,France,47.35,-3.15,0.4816,0.1734,0.3275,0.0835,MEDITERRANEAN_ALPINE,False
+52,Kastellet,Denmark,55.6911,12.5953,0.4463,0.1832,0.3147,0.0818,,False
+53,Fredericia Ramparts,Denmark,55.5667,9.75,0.447,0.1836,0.3153,0.0821,,False
+54,Nyborg Fortress,Denmark,55.3167,10.7833,0.4469,0.1829,0.3149,0.0817,,False
+55,Fredrikstad Fortress,Norway,59.2167,10.95,0.4443,0.1897,0.317,0.0843,,False
+56,Fredriksvern,Norway,59.0,10.0333,0.4447,0.1895,0.3171,0.0843,,False
+57,Kongsvinger Fortress,Norway,60.2,12.0,0.4434,0.1912,0.3173,0.0848,,False
+58,Kristiansten Fortress,Norway,63.4333,10.4167,0.4417,0.1969,0.3193,0.087,,False
+59,Vardøhus Fortress,Norway,70.3667,31.0833,0.4356,0.229,0.3323,0.0998,,False
+60,Daugavgr?va Fortress,Latvia,57.05,24.0333,0.4452,0.1832,0.3142,0.0816,,False
+61,Daugavpils Fortress,Latvia,55.8833,26.5,0.4459,0.1805,0.3132,0.0805,,False
+62,Riga Old Town,Latvia,56.95,24.1167,0.4453,0.183,0.3141,0.0815,,False
+63,Pärnu Vallikäär,Estonia,58.3833,24.5,0.4442,0.1856,0.3149,0.0824,,False
+64,Tartu Tähetorn,Estonia,58.3667,26.7167,0.4441,0.1851,0.3146,0.0822,,False
+65,Paldiski Muula mäed,Estonia,59.35,24.0667,0.4435,0.1874,0.3155,0.0831,,False
+66,Birai Castle,Lithuania,56.2,24.75,0.4458,0.1814,0.3136,0.0809,,False
+67,Klaip?da Castle,Lithuania,55.7,21.1333,0.4462,0.1813,0.3137,0.0809,,False
+68,Trakai Island Castle,Lithuania,54.65,24.9333,0.4469,0.1785,0.3127,0.0798,,False
+69,Kaunas Castle and Fortress,Lithuania,54.9,23.9,0.4468,0.1792,0.313,0.0801,,False
+70,Petersberg Citadel,Germany,50.9833,11.0333,0.4498,0.1752,0.3125,0.0788,,False
+71,Mainz Citadel,Germany,50.0,8.2667,0.4776,0.1743,0.326,0.0832,MEDITERRANEAN_ALPINE,False
+72,(City fortifications),Germany,53.55,10.0,0.4483,0.18,0.3141,0.0807,,False
+73,Forbidden City,China,39.9167,116.3972,0.4973,0.1536,0.3255,0.0764,RING_OF_FIRE,False
+74,Fort Orange,Brazil,-7.75,-34.8333,0.4973,0.1953,0.3463,0.0971,MID_ATLANTIC_RIDGE,False
+75,Forte de São João Batista do Brum,Brazil,-8.05,-34.8833,0.4972,0.1955,0.3463,0.0972,MID_ATLANTIC_RIDGE,False
+76,Forte do Presépio,Brazil,-1.45,-48.5,0.4892,0.2187,0.3539,0.107,,False
+77,Forte Príncipe da Beira,Brazil,-12.4167,-64.4167,0.4892,0.2475,0.3684,0.1211,,False
+78,Fortaleza de Nossa Senhora da Assunção,Brazil,-3.7167,-38.5,0.5016,0.2011,0.3514,0.1009,MID_ATLANTIC_RIDGE,False
+79,Forte de Nossa Senhora dos Remédios,Brazil,-3.8333,-32.4167,0.4968,0.1899,0.3434,0.0943,MID_ATLANTIC_RIDGE,False
+80,Forte de Santo Inácio de Tamandaré,Brazil,-8.75,-35.1,0.497,0.1961,0.3466,0.0975,MID_ATLANTIC_RIDGE,False
+81,Forte do Barbalho,Brazil,-12.9667,-38.5167,0.4974,0.2035,0.3504,0.1012,MID_ATLANTIC_RIDGE,False
+82,Forte de São Lourenço,Brazil,-12.8833,-38.6833,0.4976,0.2037,0.3507,0.1014,MID_ATLANTIC_RIDGE,False
+83,Fortaleza de Santa Cruz da Barra,Brazil,-22.8833,-43.1167,0.4726,0.2158,0.3442,0.102,,False
+84,Fortaleza de Santo Antônio de Ratones,Brazil,-27.5833,-48.5667,0.4712,0.2276,0.3494,0.1072,,False
+85,Fortaleza de São José da Ponta Grossa,Brazil,-27.5833,-48.5167,0.4712,0.2275,0.3493,0.1072,,False
+86,Bihu Loukon,India,24.8167,93.95,0.5097,0.1198,0.3148,0.0611,RING_OF_FIRE,False
+87,Fort St. George,India,13.0833,80.2833,0.4682,0.1036,0.2859,0.0485,,False
+88,Fort William,India,22.5667,88.35,0.4694,0.1147,0.292,0.0538,,False
+89,St. Angelo Fort,India,11.8667,75.3667,0.4658,0.1033,0.2845,0.0481,,False
+90,Fortaleza de São João Baptista,Portugal,38.6667,-27.2167,0.4947,0.1752,0.3349,0.0867,MID_ATLANTIC_RIDGE,False
+91,Forte de Santo António da Barra,Portugal,38.7,-9.4167,0.4902,0.1633,0.3267,0.08,MEDITERRANEAN_ALPINE,False
+92,Forte de Santa Luzia,Portugal,38.8833,-7.1667,0.4906,0.1626,0.3266,0.0798,MEDITERRANEAN_ALPINE,False
+93,Forte de São Bruno,Portugal,38.6667,-9.3167,0.4902,0.1632,0.3267,0.08,MEDITERRANEAN_ALPINE,False
+94,Fort São Roque,Portugal,32.65,-16.9167,0.4839,0.16,0.322,0.0774,MID_ATLANTIC_RIDGE,False
+95,Fort Victoria,Indonesia,-3.7,128.1833,0.5217,0.1303,0.326,0.068,RING_OF_FIRE,True
+96,Fort Nassau,Indonesia,-4.5167,129.8833,0.522,0.1312,0.3266,0.0685,RING_OF_FIRE,True
+97,Fort Oranje,Indonesia,-0.7833,127.3833,0.522,0.1296,0.3258,0.0677,RING_OF_FIRE,True
+98,Fort Marlborough,Indonesia,-3.7833,-102.25,0.5294,0.2845,0.4069,0.1506,RING_OF_FIRE,False
+99,Fort Vastenburg,Indonesia,-7.5667,110.8167,0.527,0.1227,0.3249,0.0647,RING_OF_FIRE,True
+100,Fort Cornwallis,Malaysia,5.4167,100.3333,0.5129,0.1151,0.314,0.059,RING_OF_FIRE,False
+101,Gory?kaku,Japan,41.8,140.75,0.5155,0.1666,0.341,0.0859,RING_OF_FIRE,True
+102,Hekirichi Bastion Fort,Japan,41.8167,140.65,0.5155,0.1666,0.341,0.0859,RING_OF_FIRE,True
+103,Tatsuoka Castle,Japan,36.2,138.4833,0.4978,0.1562,0.327,0.0778,RING_OF_FIRE,False
+104,Temple Mount,Israel,31.7778,35.2356,0.4881,0.1363,0.3122,0.0665,MEDITERRANEAN_ALPINE,False
+105,Forte de Barém,Bahrain,26.2333,50.5333,0.4662,0.1233,0.2948,0.0575,,False
+106,Fort Nossa Senhora da Vitória,Angola,-10.7333,13.75,0.4779,0.1413,0.3096,0.0675,,False
+107,Fortress of Muxima,Angola,-9.5,13.9167,0.4786,0.1409,0.3098,0.0674,,False
+108,Fortress of Kambambe,Angola,-9.75,14.4833,0.4786,0.1407,0.3096,0.0673,,False
+109,Fort São Filipe,Angola,-12.5833,13.4,0.4767,0.1421,0.3094,0.0677,,False
+110,Fort São Francisco do Penedo,Angola,-15.2,12.15,0.4748,0.1439,0.3094,0.0683,,False
+111,Quicombo Fort,Angola,-12.3667,13.7833,0.4769,0.1419,0.3094,0.0677,,False
+112,Fort São José,Angola,-6.2667,14.25,0.4804,0.14,0.3102,0.0673,,False
+113,Fort James,Antigua and Barbuda,17.1167,-61.8333,0.4965,0.2282,0.3624,0.1133,,False
+114,Cacheu Fort,Guinea-Bissau,12.2667,-16.1667,0.4891,0.155,0.3221,0.0758,MID_ATLANTIC_RIDGE,False
+115,São José,Guinea-Bissau,11.8667,-15.5833,0.4892,0.1542,0.3217,0.0754,MID_ATLANTIC_RIDGE,False
+116,Borj Nord,Morocco,34.0667,-4.9833,0.4927,0.1561,0.3244,0.0769,MEDITERRANEAN_ALPINE,False
+117,El Jadida,Morocco,33.2333,-8.5,0.4926,0.1568,0.3247,0.0772,MEDITERRANEAN_ALPINE,False
+118,Nossa Senhora da Conceição,Mozambique,-23.8667,35.3833,0.4901,0.1402,0.3151,0.0687,EAST_AFRICAN_RIFT,False
+119,Nossa Senhora da Conceição de Lourenço Marques,Mozambique,-25.9667,32.5833,0.4895,0.1442,0.3168,0.0706,EAST_AFRICAN_RIFT,False
+120,Santo António,Mozambique,-12.3333,40.5833,0.4939,0.1276,0.3107,0.063,EAST_AFRICAN_RIFT,False
+121,São Caetano,Mozambique,-20.15,34.7333,0.4925,0.1364,0.3145,0.0672,EAST_AFRICAN_RIFT,False
+122,São Marçal,Mozambique,-25.9667,32.4667,0.4896,0.1442,0.3169,0.0706,EAST_AFRICAN_RIFT,False
+123,São Tiago Maior,Mozambique,-23.8667,35.35,0.4901,0.1402,0.3151,0.0687,EAST_AFRICAN_RIFT,False
+124,São João Baptista de Ajudá,Benin,6.3667,-2.0833,0.4724,0.1465,0.3095,0.0692,,False
+125,Fort Anne,Canada,44.7417,-65.5183,0.4782,0.2258,0.352,0.108,,False
+126,Fort Beauséjour,Canada,45.8667,-64.2833,0.4772,0.2248,0.351,0.1073,,False
+127,Fort George,Canada,43.25,-79.0667,0.4818,0.2371,0.3594,0.1142,,False
+128,Fort Mississauga,Canada,43.2667,-79.0833,0.4818,0.2371,0.3594,0.1142,,False
+129,Fort Plaisance,Canada,47.25,-53.9667,0.4729,0.2144,0.3437,0.1014,,False
+130,Fort William,Canada,47.5667,-52.7,0.4722,0.2132,0.3427,0.1007,,False
+131,Castillo San Salvador de la Punta,Cuba,23.1333,-82.35,0.4903,0.2465,0.3684,0.1209,,False
+132,Castillo de los Tres Reyes Magos del Morro,Cuba,23.15,-82.35,0.4903,0.2465,0.3684,0.1209,,False
+133,Castillo del Príncipe,Cuba,23.1167,-82.4167,0.4903,0.2465,0.3684,0.1209,,False
+134,Castillo de San Severino,Cuba,23.05,-81.5667,0.4904,0.2459,0.3681,0.1206,,False
+135,Fort San Cristóbal,Puerto Rico,18.4667,-66.1167,0.4961,0.233,0.3645,0.1156,,False
+136,Fort Conde de Mirasol,Puerto Rico,18.15,-65.4333,0.4962,0.2323,0.3642,0.1153,,False
+137,Fortín San Juan de la Cruz,Puerto Rico,18.4667,-66.1667,0.4961,0.2331,0.3646,0.1156,,False
+138,Fort Barrancas,USA,30.35,-87.3,0.4878,0.2452,0.3665,0.1196,,False
+139,Fort Caroline,USA,30.3833,-81.5,0.4878,0.2415,0.3647,0.1178,,False
+140,Fort Delgrès,Guadeloupe (France),15.9833,-61.7167,0.497,0.2289,0.3629,0.1138,,False
+141,Fort Desaix,Martinique (France),14.6,-61.0667,0.493,0.2291,0.361,0.1129,,False
+142,Fort Diamant,French Guiana,4.8833,-52.2667,0.4926,0.2222,0.3574,0.1095,,False
+143,Fort Erie,Canada,42.9167,-79.0167,0.482,0.2371,0.3595,0.1143,,False
+144,Fort Frederick,USA,39.6167,-78.0,0.4834,0.2366,0.36,0.1144,,False
+145,Fort Gaines,USA,30.25,-88.0833,0.4878,0.2457,0.3668,0.1199,,False
+146,Fort Jackson,USA,29.35,-89.45,0.488,0.2468,0.3674,0.1204,,False
+147,Fort Macomb,USA,30.0667,-89.8,0.4878,0.2466,0.3672,0.1203,,False
+148,Fort Macon,USA,34.7,-76.6833,0.4856,0.2363,0.3609,0.1147,,False
+149,Fort Mifflin,USA,39.8667,-75.2167,0.4829,0.2344,0.3587,0.1132,,False
+150,Fort Morgan,USA,30.2333,-88.0167,0.4878,0.2457,0.3668,0.1199,,False
+151,Fort Pike,USA,30.1667,-89.7333,0.4878,0.2465,0.3671,0.1202,,False
+152,Fort Pulaski,USA,32.0333,-80.9,0.4871,0.2404,0.3638,0.1171,,False
+153,Fort San Carlos,USA,30.6667,-81.4667,0.4877,0.2413,0.3645,0.1177,,False
+154,Fort Sumter,USA,32.75,-79.8667,0.4867,0.2393,0.363,0.1165,,False
+155,Citadelle de Besançon,France,47.2361,6.0269,0.4798,0.1702,0.325,0.0817,MEDITERRANEAN_ALPINE,False
+156,La Citadelle dArras,France,50.2825,2.7589,0.4518,0.1764,0.3141,0.0797,,False
+157,La Citadelle de Blaye,France,45.1217,-0.6733,0.4824,0.1691,0.3257,0.0816,MEDITERRANEAN_ALPINE,False
+158,LEnceinte de Briançon,France,44.8958,6.6433,0.4811,0.1662,0.3236,0.08,MEDITERRANEAN_ALPINE,False
+159,La Place forte de Longwy,France,49.5167,5.7667,0.4785,0.1742,0.3263,0.0834,MEDITERRANEAN_ALPINE,False
+160,La Place forte de Mont-Dauphin,France,44.6667,6.6167,0.4812,0.1658,0.3235,0.0798,MEDITERRANEAN_ALPINE,False
+161,Villefranche-de-Conflent,France,42.5833,2.3667,0.4833,0.1641,0.3237,0.0793,MEDITERRANEAN_ALPINE,False
+162,Neuf-Brisach,France,48.0178,7.5281,0.479,0.1711,0.3251,0.082,MEDITERRANEAN_ALPINE,False
+163,Citadelle de Lille,France,50.6333,3.0667,0.4515,0.1769,0.3142,0.0799,,False
+164,Fort de l'Étoile,France,44.2,5.95,0.4817,0.1653,0.3235,0.0796,MEDITERRANEAN_ALPINE,False
+165,Fort Barraux,France,45.4167,5.9667,0.4809,0.1673,0.3241,0.0805,MEDITERRANEAN_ALPINE,False
+166,Fort de Joux,France,46.8667,6.3667,0.48,0.1695,0.3247,0.0814,MEDITERRANEAN_ALPINE,False
+167,Fort de Douaumont,France,49.3167,5.4667,0.4787,0.1739,0.3263,0.0832,MEDITERRANEAN_ALPINE,False
+168,Komárno Star Fort,Slovakia,47.7667,18.1167,0.4843,0.1675,0.3259,0.0811,MEDITERRANEAN_ALPINE,False
+169,Festung Ehrenbreitstein,Germany,50.3667,7.6167,0.4509,0.1751,0.313,0.079,,False
+170,Festung Ulm,Germany,48.4,9.9833,0.4782,0.171,0.3246,0.0818,MEDITERRANEAN_ALPINE,False
+171,Festung Ingolstadt,Germany,48.7667,11.4333,0.4818,0.1712,0.3265,0.0825,MEDITERRANEAN_ALPINE,False
+172,Festung Germersheim,Germany,49.2167,8.3667,0.4781,0.1729,0.3255,0.0827,MEDITERRANEAN_ALPINE,False
+173,Festung Landau,Germany,49.2,8.1167,0.4782,0.1729,0.3256,0.0827,MEDITERRANEAN_ALPINE,False
+174,Festung Rastatt,Germany,48.85,8.2,0.4784,0.1723,0.3254,0.0824,MEDITERRANEAN_ALPINE,False
+175,Zitadelle Spandau,Germany,52.5333,13.2,0.4484,0.1774,0.3129,0.0795,,False
+176,Festung Küstrin,Poland,52.5833,14.65,0.4484,0.1771,0.3128,0.0794,,False
+177,Festung Silberberg,Poland,50.5833,16.65,0.4544,0.1729,0.3136,0.0786,,False
+178,Twierdza K?odzko,Poland,50.4333,16.65,0.4545,0.1727,0.3136,0.0785,,False
+179,Twierdza Nysa,Poland,50.4667,17.3333,0.4545,0.1725,0.3135,0.0784,,False
+180,Twierdza Modlin,Poland,52.45,20.6833,0.4486,0.1753,0.312,0.0786,,False
+181,Twierdza Przemy?l,Poland,49.7833,22.7667,0.4812,0.1698,0.3255,0.0817,MEDITERRANEAN_ALPINE,False
+182,Twierdza Boyen,Poland,54.0333,21.7667,0.4474,0.178,0.3127,0.0796,,False
+183,Twierdza Pozna?,Poland,52.4,16.9333,0.4531,0.1762,0.3146,0.0798,,False
+184,Twierdza Zegrze,Poland,52.4667,21.0333,0.4486,0.1753,0.312,0.0786,,False
+185,Akershus Fortress,Norway,59.9069,10.7364,0.4439,0.1909,0.3174,0.0847,,False
+186,Bohus Fortress,Sweden,57.8667,11.9833,0.4449,0.1872,0.316,0.0833,,False
+187,Varberg Fortress,Sweden,57.1,12.25,0.4454,0.1858,0.3156,0.0828,,False
+188,Karlskrona Naval Base,Sweden,56.1667,15.5833,0.4458,0.1833,0.3145,0.0817,,False
+189,Benten Daiba,Japan,35.6333,139.7667,0.4977,0.1559,0.3268,0.0776,RING_OF_FIRE,False
+190,Cabo de Rama Fort,India,15.0833,74.05,0.4646,0.1053,0.285,0.0489,,False
+191,Corjuem Fort,India,15.6667,73.9,0.4644,0.1057,0.285,0.0491,,False
+192,Colombo Fort,Sri Lanka,6.9333,79.8333,0.4684,0.1035,0.2859,0.0485,,False
+193,Karlsborg Fortress,Sweden,58.5167,14.5167,0.4441,0.1878,0.316,0.0834,,False
+194,Festung Wesel,Germany,51.6667,6.6167,0.4502,0.1776,0.3139,0.08,,False
+195,Festung Minden,Germany,52.2833,8.9167,0.4494,0.1781,0.3138,0.08,,False
+196,Festung Saarlouis,Germany,49.3167,6.75,0.4784,0.1735,0.3259,0.083,MEDITERRANEAN_ALPINE,False
+197,Zitadelle Jülich,Germany,50.9167,6.3667,0.4508,0.1764,0.3136,0.0795,,False
+198,Twierdza Zamo??,Poland,50.7167,23.25,0.4499,0.1715,0.3107,0.0772,,False
+199,Twierdza Kamieniec Podolski,Ukraine,48.6833,26.5667,0.4776,0.1668,0.3222,0.0797,MEDITERRANEAN_ALPINE,False
+200,Twierdza Chocim,Ukraine,48.5167,26.4833,0.4777,0.1665,0.3221,0.0795,MEDITERRANEAN_ALPINE,False
+201,Twierdza Ostroh,Ukraine,50.3333,26.5167,0.45,0.1699,0.31,0.0765,,False
+202,Twierdza Dubno,Ukraine,50.4,25.75,0.45,0.1702,0.3101,0.0766,,False
+203,Fort Tiracol,India,15.9333,73.6667,0.4642,0.1059,0.2851,0.0492,,False
+204,Fort Chapora,India,15.6,73.7333,0.4643,0.1057,0.285,0.0491,,False
+205,Fort Sinquerim,India,15.5,73.7667,0.4644,0.1056,0.285,0.049,,False
+206,Fort Gaspar Dias,India,15.5,73.8333,0.4644,0.1056,0.285,0.049,,False
+207,Fort Mormugao,India,15.4,73.8,0.4644,0.1055,0.2849,0.049,,False
+208,Fort Anjediva,India,14.7667,74.1167,0.4647,0.1051,0.2849,0.0488,,False
+209,Fort Sadashivgad,India,14.8167,74.1333,0.4647,0.1051,0.2849,0.0488,,False
+210,Fort Devagad,India,16.9833,73.3167,0.4638,0.1067,0.2853,0.0495,,False
+211,Fort Ratnagiri,India,16.9833,73.3,0.4638,0.1067,0.2853,0.0495,,False
+212,Fort Viziadurg,India,16.5667,73.5667,0.464,0.1064,0.2852,0.0494,,False
+213,Fort Santo António de Zaire,Angola,-6.1167,12.3667,0.4797,0.1409,0.3103,0.0676,,False
+214,Fortaleza de São Miguel de Ambriz,Angola,-7.85,13.1167,0.4792,0.1409,0.31,0.0675,,False
+215,Fort Amherst,Canada,47.5667,-52.6833,0.4722,0.2131,0.3427,0.1006,,False

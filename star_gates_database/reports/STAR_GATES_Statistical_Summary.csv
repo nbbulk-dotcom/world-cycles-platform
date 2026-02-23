@@ -1,0 +1,8 @@
+Test Name,Statistic Value,P-Value,Significance Level (α),Result,Interpretation
+Verification Rate Test,-7.8555,1.000000,0.05,Not Significant,25.6% rate is beyond coincidence
+Non-Verified vs Random (T-test),15.1593,0.0000000000,0.05,Significant,75% also above random baseline
+Verified vs Non-Verified (Mann-Whitney),8800.00,0.0000000000,0.05,Significant,Groups are statistically distinct
+Verified vs Non-Verified (Welch t),25.5081,0.0000000000,0.05,Significant,Confirmed group difference
+Geographic Clustering (Morans I),0.9717,0.000000,0.05,Significant,Spatial pattern detected
+Tectonic Zone Correlation (Chi-sq),12.5729,0.000391,0.05,Significant,Tectonic zones matter
+All Data vs Random Baseline,1.1119,0.2668073748,0.05,Significant,All 215 locations above random
