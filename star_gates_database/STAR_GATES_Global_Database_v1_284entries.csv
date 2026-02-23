@@ -283,23 +283,3 @@ ID,Name,Latitude,Longitude,Country,Region,City,Construction_Date,Builder,Status,
 282,Trakai Castle,54.65,24.9333,Lithuania,Vilnius,Trakai,14th C,,,Star Fort,,,
 283,Kaunas Fortress,54.9,23.9,Lithuania,Kaunas,Kaunas,19th C,,,Star Fort,,,
 284,Biržai Castle,56.2,24.75,Lithuania,Aukštaitija,Biržai,16th C,,,Star Fort,,,
-285,Alba Carolina Citadel,46.075,23.5708,Romania,Transylvania,Alba Iulia,1715-1738,Habsburg Empire,Museum/Active,Star Fort,,,
-286,Fort Bourtange,53.0067,7.1922,Netherlands,Groningen,Bourtange,1593,William of Orange,Museum,Star Fort,,,
-287,Fort de La Hougue,49.5833,-1.2667,France,Normandy,Saint-Vaast-la-Hougue,1694,Vauban,UNESCO,Star Fort,,,
-288,Citadelle d'Entrevaux,44.0,6.8167,France,Alpes-de-Haute-Provence,Entrevaux,1693,Vauban,Museum,Star Fort,,,
-289,Klaipėda Castle,55.7,21.1333,Lithuania,Lithuania Minor,Klaipėda,1252,Teutonic,Museum,Star Fort,,,
-290,Briançon fortifications,44.8958,6.6433,France,Provence-Alpes-Côte d'Azur,Briançon,1692-1700,Vauban,UNESCO,Star Fort,,,
-291,Longwy fortifications,49.5167,5.7667,France,Grand Est,Longwy,1679-1690,Vauban,UNESCO,Star Fort,,,
-292,Fort Barraux,45.4167,5.9667,France,Auvergne-Rhône-Alpes,Barraux,1598,Vauban,Museum,Star Fort,,,
-293,Fort de Douaumont,49.3167,5.4667,France,Grand Est,Verdun,1885,French,Ruins,Star Fort,,,
-294,Fort de Sainte-Adresse,49.5,0.0833,France,Seine-Maritime,Le Havre,1854,French,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-295,Fort de Tourneville,49.5,0.1167,France,Seine-Maritime,Le Havre,1850s,French,Cultural Center,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-296,Fort Vallières,51.0333,2.3833,France,Nord,Coudekerque-Branche,1676,Vauban,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-297,Citadelle Vauban,47.35,-3.15,France,Morbihan,Le Palais,17th C,Vauban,Museum,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-298,Riga Bastions,56.95,24.1167,Latvia,Riga,Riga,17th C,Swedish,Park,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-299,Pärnu Vallikäär,58.3833,24.5,Estonia,Pärnu,Pärnu,17th C,Swedish,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-300,Tartu Tähetorn,58.3667,26.7167,Estonia,Tartu,Tartu,1810,Russian,Observatory,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-301,Paldiski Fortifications,59.35,24.0667,Estonia,Harju,Paldiski,1718,Russian,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-302,Hamburg Fortifications,53.55,10.0,Germany,Hamburg,Hamburg,17th C,Hanseatic,Traces,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-303,Fort Pike,30.1667,-89.7333,USA,Louisiana,New Orleans,1819,US,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
-304,Fort de l'Étoile,44.2,5.95,France,Provence-Alpes-Côte d'Azur,Sisteron,1590s,Vauban upgrades,Ruins,Star Fort,Added from GROK PDF expansion,,Wikipedia; Starforts.com
