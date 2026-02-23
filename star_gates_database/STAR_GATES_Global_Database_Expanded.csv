@@ -1,0 +1,34 @@
+ID,Name,Latitude,Longitude,Country,Region,City,Fort_Type,Notes,Match_Score
+1,Baluard de la Reina,41.618035,0.6276388,,,,Star_Fort,Earth Grid Node,1.0
+2,Baluard de Louvigny,41.6191614,0.6270318,,,,Star_Fort,Earth Grid Node,1.0
+3,Baluard del Rei,41.6181617,0.6247702,,,,Star_Fort,Earth Grid Node,1.0
+4,Baluard de l'Assumpció,41.6173385,0.6263569,,,,Star_Fort,Earth Grid Node,1.0
+5,Baluard de la Mitja Lluna,41.6176419,0.6254325,,,,Star_Fort,Earth Grid Node,1.0
+6,Simibaluard Baix del Rei,41.6179233,0.624458,,,,Star_Fort,Earth Grid Node,1.0
+7,Punta de Diamant,41.6174699,0.6239894,,,,Star_Fort,Earth Grid Node,1.0
+8,Simibaluard Baix de Louvigny,41.6188944,0.6259533,,,,Star_Fort,Earth Grid Node,1.0
+11,STAR_GATE_11,43.5102302,16.4383404,,,,Star_Fort,Earth Grid Node,1.0
+12,STAR_GATE_12,43.5099136,16.4408079,,,,Star_Fort,Earth Grid Node,1.0
+13,STAR_GATE_13,43.5101402,16.4412058,,,,Star_Fort,Earth Grid Node,1.0
+14,STAR_GATE_14,43.5102004,16.4398687,,,,Star_Fort,Earth Grid Node,1.0
+15,STAR_GATE_15,43.5104728,16.4398643,,,,Star_Fort,Earth Grid Node,1.0
+16,STAR_GATE_16,43.5106125,16.4400047,,,,Star_Fort,Earth Grid Node,1.0
+17,STAR_GATE_17,43.5108058,16.4409465,,,,Star_Fort,Earth Grid Node,1.0
+18,STAR_GATE_18,43.5108937,16.4407389,,,,Star_Fort,Earth Grid Node,1.0
+19,STAR_GATE_19,43.5103238,16.437122,,,,Star_Fort,Earth Grid Node,1.0
+20,STAR_GATE_20,43.5105324,16.4383726,,,,Star_Fort,Earth Grid Node,1.0
+21,STAR_GATE_21,43.510644,16.4380304,,,,Star_Fort,Earth Grid Node,1.0
+22,STAR_GATE_22,43.5107325,16.4377283,,,,Star_Fort,Earth Grid Node,1.0
+23,STAR_GATE_23,43.5108634,16.43728,,,,Star_Fort,Earth Grid Node,1.0
+24,STAR_GATE_24,43.510311,16.4371776,,,,Star_Fort,Earth Grid Node,1.0
+25,STAR_GATE_25,43.510797,16.4373363,,,,Star_Fort,Earth Grid Node,1.0
+26,STAR_GATE_26,43.510688,16.4377114,,,,Star_Fort,Earth Grid Node,1.0
+27,STAR_GATE_27,43.5102345,16.4382898,,,,Star_Fort,Earth Grid Node,1.0
+28,STAR_GATE_28,43.510611,16.4380104,,,,Star_Fort,Earth Grid Node,1.0
+29,STAR_GATE_29,43.510511,16.4383324,,,,Star_Fort,Earth Grid Node,1.0
+30,STAR_GATE_30,43.5099538,16.4406654,,,,Star_Fort,Earth Grid Node,1.0
+31,STAR_GATE_31,43.5102202,16.4400906,,,,Star_Fort,Earth Grid Node,1.0
+32,STAR_GATE_32,43.5101443,16.4405622,,,,Star_Fort,Earth Grid Node,1.0
+31,Fortezza di Civitella,43.4167,11.7833,Italy,,,Star_Fort,Match Score: 71.73%,0.717267864333049
+32,Fort Niagara,43.2633,-79.0633,USA,,,Star_Fort,Partial Match: 61.57%,0.61567089183982
+33,Fort Carre Antibes,43.5892,7.1228,France,,,Star_Fort,Partial Match: 58.75%,0.5874900058120455
